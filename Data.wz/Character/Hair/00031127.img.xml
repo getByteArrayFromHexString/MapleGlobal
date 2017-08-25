@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="00031127.img">
+  <imgdir name="info">
+    <string name="islot" value="Hr"/>
+    <string name="vslot" value="H1H2H3H4H5H6HfHsHb"/>
+    <int name="cash" value="1"/>
+  </imgdir>
+  <imgdir name="default">
+    <canvas name="hairOverHead" width="49" height="40" basedata="iVBORw0KGgoAAAANSUhEUgAAADEAAAAoCAYAAABXRRJPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQjSURBVFhH1ZeBlaowEEW3BVqwBVugBVugBVuwBVugBVqwBVuwBf7cN5kQArru/j2Kc84sMJkk705CcL/+0MZv/K22Jigc033X7h96Yzm4d3mdSdzxsF91hNHOda299FN3kJ+P3UthbPLWJm6TiHY840fEeAwPAGJT3O/92d2fJxCtTNOoCD7d39vYn47jdeh17U14OBAZKgO11tbNABE7nE/Wv9MYCNdY6f5Ernm73/09CMs89KdxvN3G6+UiIZcEEwKBufRnCQyIQWLnIL31ZQycMRxqDkLfQ9qWruD/TRM4wCChtwTDpAhEKG24hCSIi4HjviJedYpB39sVEBuvAqFf+H+syKKPJkY4ExqNCbhqW3nlbYuZmNvNYnYdUqw/p7iJpV/k4jwHSAkRq8CK8X4cDOKXILN8DaqKmQiESyxVZHIqrdjN4AwvxS+DC1abAdcgiGbM2FIB4BDT8ftLiEW+TehbgO3A1mBir7hXD0GA2R+HS8CsSIjNFU994kSKsdl+bMtpK04QPwRRf67+6KaJEH9mUvZ+ruh0smiVUlUFYOL9ZfYXmpUJCI7kEEqOQMyJ+SHQqe0XW0pzrELko9QmIMGhEMppEqcOca+6gC0usWl/R/sEN7Vxn2PmcZr9AEJtAUC/FJOpIQCi+j5ZeZy6ACaMLSdAi5UgCCFfIlOcPrTF6oT7yhzGztoCYgUki78HgGWIEB3L3jR+7PoLbMJSJYkjKHKJ88zgtCE6QMjnW0CM+wAhV2CMaUXpDLaCWIiPfoyV2rNlCAZQJ6pvz3TY7Ro9TyvilRWI5ZA/GCjvUtm2s58VDuIFYWzG477eavTByQFyV1xpL3NwNLv0yVyIVZRkgVBhhCUQRFHNgFsFYWulNuIMzJW4xrP3hGfG8w+ivxPkh0jm7k9WTIsDwZUYznZDa/KFzSB4LmNMRFVJdFF8mecguGBMLJNHPPrsd+k9MfE8cwA4iI2vYnUqUqzE3jyujFU7+hi7NAUrCCzFXXR6noHEKkU82kpA2rBod2+UU64CHhDldoq80tdAVHWuKyBYPJdx3dcg2Fyse2rKBgQeAFyP9k4BYc1jY+8hEFyJMU+sviBSP3I1oJkgimrnhies7POTfgLxY9vc5uZ0qr4V8lihBYjF6wKVEC8xBMSLjSB85YPn8dbjJUj0IcdT3wCBAbICUFoWfA+EHE99M0RV/dpmEIjfHATC6r1d2UOIuu/LQZ6AyGKfhcBeDvEAAPsWIj7Eb7NvALDtQzxhjyGWH+bNmb7aDyEsTp6nb9MWEGy/T4LIADgAxD4KAoCACABvmUPw7OHt2WwVihMsx4BY+bW9GbsHgGUArjx7eFuWAbhPHvYZAIi7I1Dit7yFQlTppeUV+IRvwpr5v60r/4p+imUA7pN/jJWinxT/9fUP5HJn2cYx0EMAAAAASUVORK5CYII=">
+      <vector name="origin" x="24" y="15"/>
+      <imgdir name="map">
+        <vector name="brow" x="-8" y="0"/>
+      </imgdir>
+      <string name="z" value="hairOverHead"/>
+    </canvas>
+    <canvas name="hair" width="35" height="24" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAYCAYAAABwZEQ3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKVSURBVEhLxZUBlatADEVrAQtYqIVawAIWsIAFLGABC1jAQi2wuS8JDLttT7v/f37OycJkZvJuMkP38gtbP/B/Ykret7d16Bo9u+a2jl1bjK/2bNZp6Nexb827vw6mRAiNJjqPg4Q2GIkegUaDWeZZPk/jOtke9mUukv7GTMSFEFzmSU4sYaaxNyHrhNZ5N4gty7zezVlfAtE18oa/ZVq8WBIlILklvd8XPUk8Dp1ccRNFkLWb29hh9u4A0lthFEEHQ+eluWgIqHIS3+8rtglPpei+3uFduARVxwye7gHS3tzRc9mfZsnyvOkAIAgOArQ/EmXumSh7Bt0p7pDdsYhxrBz3fsRvwEzcjagwvwic8Va9wQHhl9YvrsdHF7RxCjL29Z1iftm9O6+AtJANbFTlamt+JcS9C6o+ReP8mT9C7nO8bzHz/PpewmQ3fFP5GXsH2EhVHKVAEWFtiN6utdZLLOLsYS67tQGpU5bT5hrbx97gkG3dYHFV0SnrkFUrgaiMOIlzLXHGCDKHeAKxvrExMd4TiLUCJKcV1xo0+o5hL5Dp3OlGtLCuK433DnmlArI1upwGPMS9ybm6qgLICyM3+QQURWU32YPD4Cj2woSAqBiBACI51TnkE6DibhEnIU/i+cUxJp//MPqdYX0CxTFpr4IxOAhQJQs8Ob+0xy7ggjJRjiHjuedaxz0yCMZcdAey/Cq6VbHPYDC9p3iMD0DZtYznXAnKHJbz7pXWlF350Rk68Q0Iy3EZ1/t3IOwo6h5TmwGDJwjPzu7cAabwd63c88k+AeXPBf+r+Jr4vG1KeT5O+CdGx4DII8X/GwwGUAny6JhOs4QpIfQsv5izDBhAHl3ywyd8hr2CwU6HeQZyuj0GuVy+AGraK4U0XZTSAAAAAElFTkSuQmCC">
+      <vector name="origin" x="17" y="11"/>
+      <imgdir name="map">
+        <vector name="brow" x="-3" y="1"/>
+      </imgdir>
+      <string name="z" value="hair"/>
+    </canvas>
+    <imgdir name="hairShade">
+      <canvas name="0" width="35" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAZCAYAAAC7OJeSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVEhL1ZGNEcIgDEYZzhW6giu4grN0BVdwFldQEhNKJPxLS7+7d70C/fKOmtq818u9FPrkvxFDnrcvj2sBi4Oq2sMCr3VBnEix0CbTJSVuQUMdHoNkoLNGyr+NfgkfkmFyQmMkfpFSNFomKQKoxS3YGZ4QjZfBTU0CUEtbkTKBECyM/z0AieRkVBFALW1FlxFC08jgCxwcLgKcRAY4twxep422l8YTycnQDFMqA9H201TKcGIyDB3DaPtxQhnsYBkuhGdJwgH5b7ezGZnSwt4IIU/ExZntIANJyuydCWUss8nQ0nFxMhZaOja6iDEfZoVnef5mLsUAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="12"/>
+        <imgdir name="map">
+          <vector name="brow" x="-3" y="0"/>
+        </imgdir>
+        <string name="z" value="hairShade"/>
+      </canvas>
+      <canvas name="1" width="35" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAZCAYAAAC7OJeSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADqSURBVEhL1ZCBEQIhDARpwVpswRbs6VuwBavUg8tPJkbMIwLezMoLCdkhHc3tctqisKVv9ID7NY7u41XtkYu2c8EbWEPLCLz6WNDoDWjBCgGOqUeKW16ihhYRONIPCnpLWEJCI0RAWMZr7o2VAVQowcaMVxGoUYINr7k3VkJDlYVk8OE1/gIroFlKBvy3TH7OZ7yzGnawxy7DGR+HsCzHO69hh1teZCT2IgvLcrzzd1gBgDvyKn9QiDUSOyDSK3VaQsB5XvETvfDbeEI8KpGNETJIVWZ0lpPRQtyeEy3DrXkRGcCtufFFUnoA9lExHFfCPncAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="12"/>
+        <imgdir name="map">
+          <vector name="brow" x="-3" y="0"/>
+        </imgdir>
+        <string name="z" value="hairShade"/>
+      </canvas>
+      <canvas name="2" width="35" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAZCAYAAAC7OJeSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADdSURBVEhL1ZGLDcMgDERZoSt0p66QFbpCx24OnRG4joGEkuSkpyZ87Bc39GZ5hE8rvDI2eYP3s50lg6X2RwRexGrokcsckuqdgkeSwcfxmW385NOwCu8lyQjrO1va+YeERkuxdZkZIkD+pqqMdXk0WuZHCAtTpwI8GevyaLZkCqHLyMwSAbeRAfeWieNcY+15FCJAiYAkwx7VJjwWY+17dMtIdCENj8VY+1tYMqiRZKQgfluiG7TclXNVmdaCR1MIZSIpsjBDBnFlZudyMlHoajJcOi8iA7h0bmyREL7bX0BUjHXfNwAAAABJRU5ErkJggg==">
+        <vector name="origin" x="17" y="12"/>
+        <imgdir name="map">
+          <vector name="brow" x="-3" y="0"/>
+        </imgdir>
+        <string name="z" value="hairShade"/>
+      </canvas>
+      <canvas name="3" width="35" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAZCAYAAAC7OJeSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhL1ZGLEYMgEESpNi2kBVuwhbSQFuwp4fCOcLh8hKi4M28cAffeoNmbz/yYauFP/hs1ZJlX3lOZ19PDVe35SdhCQkRqhQKZLil1Cwg0PIXIUOceKXUbvRIhIiOUhA6RiImkeLROVoRAxS3wbyrLIAkClbYSyWyE1sXEraDCVkSkKINECFTaSkJGCQ0j417o4NEixF1kiHvLuOu0QXtZQpGSDM8wtTIUtJ9lr4wkJSPwMRe0nwTIuA6RkUJ61mQzoOJbf7YkU1vYGyUUiPh4sxNkKFmZszOeDDGaDC9dFy9j4aVrg0WM+QLssqNwQiiLYAAAAABJRU5ErkJggg==">
+        <vector name="origin" x="17" y="12"/>
+        <imgdir name="map">
+          <vector name="brow" x="-3" y="0"/>
+        </imgdir>
+        <string name="z" value="hairShade"/>
+      </canvas>
+      <canvas name="4" width="35" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAZCAYAAAC7OJeSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADpSURBVEhL1dGLEYMgEARQyrcFWrCFtJAW0ktcvdOTrBxI/O3MTmYAjxcNtem6V1daeeS/sRf0/Uf6dhvjUhm1PwqIceoCKQNZTBNq/RZYOYBVIdMfq0DZt9GKsFXMMt8BHYFIm6Lk6nXyEJQPr61+JhfDESgfvKcp5geEhaM/D6oQF8MhKB+8p1uYFeg2mAmCw8dC0Mdg0Gdjxtc5hO3laiEuRu4YLinDIGw/12qMZgujlWNj2P5WGQYzZowOxG9J0gtKntVzLqZ0YGssyELm6MIZGCSLOTu3w6C3w8jSdVEMKkvXhkNC+AJWvlIGVP2ZDAAAAABJRU5ErkJggg==">
+        <vector name="origin" x="17" y="12"/>
+        <imgdir name="map">
+          <vector name="brow" x="-3" y="0"/>
+        </imgdir>
+        <string name="z" value="hairShade"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="backDefault">
+    <canvas name="backHair" width="46" height="40" basedata="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAoCAYAAACB4MgqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARySURBVFhH1ZYBcetADERLIRRCIRRCIRRCIRRCwRRMIRRCoRQ+hXztSivrzpfU7Ux/+zWzY/si3z3p1te+/aN4vNCvigbuejqudAn1uaYfCS5OuLNrOp8oPaeygMPjcgzZvebAZP8iCrCBXk6P+Xp+zNPlcTPhOk/2jDETfs9iOvhzXPe73bcXkMAOeybsbb5S93mi9JyF9AWUIgAv7XbfA8/F2GHABvD9Nj3e7zfqfpsdXMDqvJ6vXgQLiSLo/2+EL9DW5QAGqANHl6faZbdR1XyJQuyK597/W+A/UxUnnS7HFbR3V8AtdNUCj+Ile65d39j5zeCYgN0GRIDf5GPAopCBtyXaRVIhpRh53uEd+nTID3YVGNwCz8kSnP70riZw2OXP+/3xDlXrzLEDCR4faQFuwY8OTvj9EJ7JuPrj0yD4ZLm+IBaWXRw4YWvXBctCl+66WuDF4x38k67zJSyOex9ax9GqrpNi4QX6zutL4Aba3kcDBtAtvOzypONI6uD7JE6iidhp83R+mGkHAF/dEgRe7ODyXcJ9Aj9TB74JviuAwouYBHkjX/O92vEowjsfUjGUvpN2V4bgr7ouKL0IkL0lY1t3uNqYcnB04cP0rnf+RgF1B1TA6D7HUJTvygK9DRzBJAkvHm2ieTo9DgaPietv/qc+Om+ghKfaApodKKDDjzaa5tAurIeP82nHZ3sRV+hgSRA7bpOq4/qjoF3BYuo8zvPF84Ou23GYsINTpu2030OvwAktK0gA3+13NqlZxf7wLFaJszwWxMeW5znUwA5EeFjD4Ss0hXsVESwjqyQ0gOQpCMffYb/PXcCL+g2TcuEAILyAimQJl0MTPN6p/yH6n/4FnJ2P9aAGHJ2s4EoCNK4BjuCzuo1J0Sl1EZA4KbIYCs+wEuT3uUuClWKc0DF/5YEqeEJXcEFDyEEirhoTtD5OHYnwOIEb+CiAqvehUpAKoV068N4qCY6XlCRwvIgcJOKKZ2wdJsVC2m4ACT4/yIBebGKSxyXk4NvAPAHsnR53+yX4E2gEx5Cna1oAAAG2Ov4CWjkUu1z8baBLl33+Cq4T5avgiISWCE+4+DMf9wk+EuHtm8Da+CA1XwFP6AJ+sBMuOF6DYww5nsrwcXQnFqJlABtQtaMrFV/L0ylBB3CCE7oD330eHMEFEt4EiMbD6H7AwQ6YX0dddreK0K09eug8BiO+Ao5w8FfwpfssIIpQvpSeLsCSTpJqEcVXwXn+a2u5A5brXfUjUn7XqeEFLBaptuAccV816rTiQ3DAIM/T28Ck6lbNXyyhLpvYWcnzBfxZaMQKHMm4bgFHIB+LJAS6D2HOuF8BV+i4/ww0gtASXsIYhPvawRgfBmxD69g7DdAz0G4MoBL8/BG0IrtewBEN+EfwESxgtQsmzL0qLoT3ijbHyi4Yww9YqIIjT79tCOVWIZ6NfylGdlEQuApj/tPPB4Gu1tW+6xF8/tXwI8uU0FivH4/s6Av4XxuEFTwUY/9NEPh/hUcIuuoH4+3tL/C9JUbySjvKAAAAAElFTkSuQmCC">
+      <vector name="origin" x="17" y="16"/>
+      <imgdir name="map">
+        <vector name="brow" x="7" y="-4"/>
+      </imgdir>
+      <string name="z" value="backHair"/>
+    </canvas>
+    <canvas name="backHairBelowCap" width="35" height="33" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAhCAYAAABTERJSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANaSURBVFhHtZcNseJAEISxgAUsYAELsYCFWMACFrAQC1jAwlnIbff0bHo3gcfBva3qyu/OfNszG4rdF2N+oV8fTcLLcFpplPp3i/7bYEBPej0P1OVcrl16Pg7HeTwtyhgI9ulYIJB8HObb5Vw0ztN1nG8Qr0N4XgE7oLOOh/3+I6gKkckAMF0v83S7zPfblcI5ZXA9FMEElNrv3wdiADpBgCIATNf5cZ+o+3QLGIMI4TwlxwTGfvpHIAMpbqQLJTkh0g04VEGihK7bWECkVy69AuKL1zIRK3KQcCEhWhDXAoQmT5Vrd+cdINzsXZkcIuE6d1KYs5Srh/PGhgJkONambgZfqDAMGKt3h1CqP4/7/ICasskpAAmqgUhVmFOFGY6HFRBhaCuDIJhKJQgCTAHQQixuJADlEAJxGAdawfiLCIYyBMi99k0DYSXpIVIO4Yo8WarWGd7IpqIjAEHybF4ChHwrNxBys+4eh/Fr3XMYB+IFHoCYX1iURzAsTe9MhVOv+HeFUNl3koArHGC0+L5veIGHsbURCDuk6xc0LKDKx8+d2lQC8z2AtjAs0ysYPEh34mdADtmXF/3jUI1TlnyzsR1E+tGZtDGsDofwvWFyQpg7WwAbu6txRPGhTZjqimAyCOrPflCyVQl6EQhlCSAHod7tGYdhMAV1IFe6USF1nnO4qwTQb3U6JJgA6pxJELyIFaULSBxABsVzlFG7pjpZpKQJkPcbEG3rpzAEAgi/E9Evub3RMwuEgOp1Ea9xlPK+gRCyxCdQA9LB4GE6g8kIRDdKkgSqO0cgS4mKvG/yHUCzXO5ICxIw7UcPg/T8sSzHar9cQAJCJZASMqmLbqhfzIkFJhbdu7KCSWeoBGJC/QTovCqhKhwEIPRY9A5dEVTvymAwx8MCgtHCFPFLDAAlqyv/Qd6sqe3yPIfB4CQG0IoQuOkJuKSEgI3dImlOI4K0pelBvDz9aFYEIekKCC6hNwAlsB4k3ehBFphtR5qxl0MMBKASOByI7Z79w/NaGjUt5mkukj6Hee1IM/BiBsodVktSjvxTRzcMQBC9vgLJgQmYWAOXZF6+BkJ9saWvQXLgHwO0lWRTgDIwJE+hPz4G6caMXlq5VYQVPwPGPNOvjD5JJnp2/82x2/0FuoM9zVAMTtkAAAAASUVORK5CYII=">
+      <vector name="origin" x="13" y="7"/>
+      <imgdir name="map">
+        <vector name="brow" x="0" y="5"/>
+      </imgdir>
+      <string name="z" value="backHairBelowCap"/>
+    </canvas>
+  </imgdir>
+  <imgdir name="walk1">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="3">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="walk2">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="3">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stand1">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stand2">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="alert">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingO1">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingO2">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingO3">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingOF">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="backHair" value="../../backDefault/backHair"/>
+      <uol name="backHairBelowCap" value="../../backDefault/backHairBelowCap"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="3">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingT1">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingT2">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingT3">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingTF">
+    <imgdir name="0">
+      <uol name="backHair" value="../../backDefault/backHair"/>
+      <uol name="backHairBelowCap" value="../../backDefault/backHairBelowCap"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="3">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingP1">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingP2">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingPF">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="3">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabO1">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabO2">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabOF">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabT1">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabT2">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabTF">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="3">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="shoot1">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="shoot2">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="3">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="4">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="shootF">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="proneStab">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="prone">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="heal">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="fly">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="jump">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="sit">
+    <imgdir name="0">
+      <uol name="hairOverHead" value="../../default/hairOverHead"/>
+      <uol name="hair" value="../../default/hair"/>
+      <uol name="hairShade" value="../../default/hairShade"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="ladder">
+    <imgdir name="0">
+      <uol name="backHair" value="../../backDefault/backHair"/>
+      <uol name="backHairBelowCap" value="../../backDefault/backHairBelowCap"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="backHair" value="../../backDefault/backHair"/>
+      <uol name="backHairBelowCap" value="../../backDefault/backHairBelowCap"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="rope">
+    <imgdir name="0">
+      <uol name="backHair" value="../../backDefault/backHair"/>
+      <uol name="backHairBelowCap" value="../../backDefault/backHairBelowCap"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="backHair" value="../../backDefault/backHair"/>
+      <uol name="backHairBelowCap" value="../../backDefault/backHairBelowCap"/>
+    </imgdir>
+  </imgdir>
+</imgdir>

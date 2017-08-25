@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01802008.img">
+  <imgdir name="info">
+    <canvas name="icon" width="30" height="28" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIGSURBVEhLrZUBlYMwEERrAQu1UAtYqAUs1AIWagEtWKgFLOTyl0y6pGlLys178yhhZ2Y3ybs7/QNC4mG0GIV5HMI09IfDwzJPZsbvdekjcv2R8F9Nsm7sz83hJjzQeZjvfdT+EEzXB7bLQtHfLt1uj7xN1/N+UQU2dYuHTesEe4VlnU2Nz96p8zYz9c5zrh1NezBbRKjOibX101usl9EuVK7Px1UJzjX2lpBvZMv5RORmefJOYCU4gGVZwuPx2PiXoZ7fkMMVWARbqEDwPM/ZO4u15YjZShWk51uiVagbANikQBP7YLAJhZe4BvkWuidZ41x5zqkGnbQ0IJ35xiACFUoD6ZvhJXSJtLC+ezIF61Lxm3q0mti+R06R90i8CayFCmYgYS0U0hA1atSHalqF8sS34AtMBDHPEzuypu3V0ZShBELq8Fyt3yNvhYAQqglRof5ClaFu0q/YhJbgmxohwIfybmuJLdOCPPGnBoDCRU3op20JBmGapjAM8T/VOBrL7RdYU1CNhJd/pb7BwkU1QDNlE9qdl9Ckox6/1XYfTIBQlJlvQPR/HHwtz+TVhC5SwmoD/NZ6+d2FxmtgPEfi+RZ8pIjiPvIaOURumsDY3wXeFepqb4no8cGzGq5QBUo4JsYjNHrzGlUPdweXk0I18ImqVYiIV9NWi4hKyqyk10G8xAKn0x+mwZfoxkkwrQAAAABJRU5ErkJggg==">
+      <vector name="origin" x="-2" y="28"/>
+    </canvas>
+    <canvas name="iconRaw" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHMSURBVEhLrZUBkcIwEEWxgAUsYKEWzkItnIVawEK11AIWaiGXt80P2xCOhPJn/rRNsvt2kwycvqCQfFg9icIyjWEeh8PwsC6zJeN9G/pXef0R+KdJctw0XLrhFnig8rDchhj7AZiqD2yXQYn/vZ6bc+Rt+rm0B1VkXffksG5dQGtguc66Jk9r13mb6brxnGtH0w9mi4DqnBjbpl5qu4x2ofL6fFwVcF5jX0n5RvacT1QuliffACvggNZ1Dff7fZe/hHq/U4YLWIANKgFeliXnzsHacoLZSi1Iz5cmVlDXALJOkTr2YLSD4mscw8yF88OMca48l7SGOMVSgOIsbwQBFJQC0pzpCbpGG2w4P5zAulS8s55YdWzz0XP0LZrcAGtQyRIosAbFFMQaFeqh6lZQnuQt/CQLwiTPHTszpu3V0ZRQgJh15NxSv1beColArCJkQf2FKqGu07faQUsxp0IAeCjfNpbc0y3KHf9XABJcVoe+2x4wCvM8h3GM/1TTZC63X2JMoJqBl79S72RwWQVQTFmEducJmuJYT74tbZssgEBZyXwBsv9x8Gt5plzdUmC1AN41Xs4fgZbaFUFifxf4FtSt/bp88pobdDr9AcXJgLuz2Q7FAAAAAElFTkSuQmCC">
+      <vector name="origin" x="-2" y="28"/>
+    </canvas>
+    <int name="tuc" value="5"/>
+    <int name="reqLevel" value="0"/>
+    <int name="cash" value="1"/>
+  </imgdir>
+  <imgdir name="5000000">
+    <imgdir name="stand0">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="14" y="51"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+    </imgdir>
+    <imgdir name="stand1">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="14" y="51"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+    </imgdir>
+    <imgdir name="hungry">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="12" y="48"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+    </imgdir>
+    <imgdir name="move">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="14" y="49"/>
+      </canvas>
+      <canvas name="1" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="14" y="52"/>
+      </canvas>
+      <canvas name="2" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="15" y="51"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="jump">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="14" y="47"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="rest0">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="15" y="51"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+    </imgdir>
+    <imgdir name="chat">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="14" y="51"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="angry">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="14" y="52"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="rise">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="15" y="61"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="poor">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="12" y="48"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="dung">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="16" y="51"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="stretch">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="14" y="48"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="prone">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="45"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="alert">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="15" y="46"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="cry">
+      <canvas name="0" width="30" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVEhLtZMBlcQgDERroRbWwlqohbOwFs4CFtYCWrBQC7XAMYHJ5TjawnZ33pvXQkl+AnR6g2LxZY0kisE9on8sl+FxC16S4T1PHUrXX4G/mkTj3HIbhkvghcpjeC4p9gUwqr6wXQJF/Pd97s6h2/R16w9qSLoe2W7p1kB7A+t1Cu7tWrcZ7rwkraOR7R7ZOa2Uxlz+tKt8GeVCKfwIrGtkVKQ3cvCMBUIYx9jmKk+Etm2L67r+yV9Drc+kcMQTas5YoBTAIQTNrcF2y7GVXFCJ82rEElp3i04hdmzBkEIbwRDH8Z6Mc8Uz6Pj3bFEA5rgeIAAJRQHlm0gD8cQ4T+fgzViA5VLhnTHsmAX55Gcy4gFsQSlJYKsFKM7Jy5yd3gm3hdqzxTdC8WQu439SaAtIKLeXf0INBRDGOuSSzCfKCYsBqd0LNZ2eSm9fS/jGggCwUIxlrnik25y4HP5RARDhNDu03Q6BW2YxtTCH34Mw6xEwxIW7rotgcfxHudWj4B5pEYRaMArz3kfnnDwxLuvfKi0CAEJpwD8FttIiAPx0x3vSIop3NE0/G4w4e1oFhx0AAAAASUVORK5CYII=">
+        <vector name="origin" x="15" y="51"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="hang">
+      <canvas name="0" width="24" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAaCAYAAACtv5zzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGfSURBVEhLpZILlYMwEEWxgIVaqAUsrIVaWAuxUAtoiQUsYCGdN5OXHUII0H3nzCHkc++Edmgk5bqbS+dSDK80v6a7kkvndFN8T+n3Od4WAB6mR/esbvp53IYz3ea0+y86r3N4C+0eC/+4AVI4GNuURRbMjEIXmLOlEs611hBt7lTQuIG+p3FIqzxZeZ4p/yJyMGdLlqNvpzDA0zQWSczzWLdtmnyDE4G7wR+cggsScFq/o8Ipecp7gQvUj2sB9uI8qtHkJrqhhnsgb1EL5vzswZHSfYE7wVtKxQ0B1rwELEPuUyCEU0CAvxHhFGAODEPto5tK9w6OgxTU73hekaQYo3XvBHhf11VrWZYUQtjACT0TGBwgGbNzFcgc4yUeTqGX4Amu4WWAgwBgkRJ2z1Awz7M21BOgCewDWwUeRAkOUkw4wBQQ7gWc6wowLocFBLCH43DdvRdgnUUBkvEWSrQEymp9GlT9aWo4srkFsxG5ApDFm/lqCRAFtkQM11n+83kRWIbcRxcJOMqRgOcBOkvZTJgvD/Z7pb5KDamrk2H4AC9rkWati3TJAAAAAElFTkSuQmCC">
+        <vector name="origin" x="10" y="69"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="5000001">
+    <imgdir name="stand0">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="45"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+    </imgdir>
+    <imgdir name="stand1">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="44"/>
+      </canvas>
+      <canvas name="1" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="45"/>
+      </canvas>
+      <canvas name="2" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="46"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="hungry">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="27" y="44"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="move">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="46"/>
+      </canvas>
+      <canvas name="1" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="44"/>
+      </canvas>
+      <canvas name="2" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="26" y="43"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="jump">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="42"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="rest0">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="46"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+    </imgdir>
+    <imgdir name="chat">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="45"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="angry">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="41"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+      <uol name="9" value="0"/>
+      <uol name="10" value="0"/>
+      <uol name="11" value="0"/>
+      <uol name="12" value="0"/>
+      <uol name="13" value="0"/>
+      <uol name="14" value="0"/>
+      <uol name="15" value="0"/>
+    </imgdir>
+    <imgdir name="rise">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="20" y="58"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+    </imgdir>
+    <imgdir name="prone">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="43"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="cry">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="46"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+      <uol name="9" value="0"/>
+      <uol name="10" value="0"/>
+      <uol name="11" value="0"/>
+      <uol name="12" value="0"/>
+      <uol name="13" value="0"/>
+    </imgdir>
+    <imgdir name="nap">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="30" y="36"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+    </imgdir>
+    <imgdir name="dung">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="44"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+      <uol name="9" value="0"/>
+      <uol name="10" value="0"/>
+      <uol name="11" value="0"/>
+      <uol name="12" value="0"/>
+      <uol name="13" value="0"/>
+      <uol name="14" value="0"/>
+      <uol name="15" value="0"/>
+      <uol name="16" value="0"/>
+      <uol name="17" value="0"/>
+      <uol name="18" value="0"/>
+      <uol name="19" value="0"/>
+    </imgdir>
+    <imgdir name="tedious">
+      <canvas name="0" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIJSURBVFhH7ZZtlYMwEEVroRZqoRawsBZqYS1goRbQgoVawEKWO+FNQzbtFijQH/vOeQdIJpPLJHwcNlQYvJmmTBja+hKaS7UZZOjaxiblPDY9lcdvATl3Mh9XV6fVIG2CBZUI7bXqx64ISBUWLJPBMf77fHw7pC/P12lRcqviwhxFWfWSxK9OkMdZFcnz7ir68lLFF/dhaUusB8jSAKd9RFvseqj4UNmD4fG+TQqAHmNXE+VP4MT94zfFkWvACoABdV0XbrfblPyuHC71X3JIgWWABicB2Lbtq7ldPomWmklYQvpiiAMXzVjBJTeKrHJIFZwDiEZw+Ny3YfrC8W7a2Hcc2yGGcRoLqMZZ3h4IMMEBOvRN0i+4rrdBVce7B0A9HJwTz1hV0Pp7N72vvckN2BI4ySbSBCU4DDgxuqEUTtUTHEfyZp4tS46B8Aompk3Lqi2RwwGGiSNnTL1cvgQSE2DByoJLH4wcLqnc2zSCy0WfgAFJ4bi2tsFrVA95BZ+BIkHKqlhaPXLNfSk/kxK682WXaBNQ7rquQ9M0qwCW9BBW1U7fcRg4IDkfxm6mEWgJEDgBDvG7yCYHJK2arH4C91YKk/pfm+ujl8A/UfoS0Ba79pcBma61/ZEAysuUvhiyrwwohVMlPwUyAmZw+m7SH8P2kwGV4DinP4btq9GfxqfBSQJKvbMOhx+9Ko8k0KjcHQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="25" y="46"/>
+      </canvas>
+      <canvas name="1" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIPSURBVFhH3ZaBkYIwEEVtwRZswRZo4VqwhWuBFmyBWmjBFmiB423465oTToKKc3/mj5LdZF82IO5Wqh/9keq7tunb+rQE8m0bcrjmVD1adGl+saxQQbGSTRXJChUWcci6OrwE0hf/OuxLC/TtuRo2+CJAOhDgSooYHCfwfSze5KT8eOniivvJurjiFCZlCwOnLjCWQrPK82w+gM/uot8/C3Z/76F6HWAGFz0luxXSxhzSH7QM0ON2VSA/Xh01RQAgllLuyufxyTVgGWCPuq7rL5fLX+vN6gZOBVMoFcosOaTAImAUgG3b5vMflsPh43CNGe/3V3fDNWY8GkDBYY3TOaQOrgFEDgeEQVX7q0dA4tx3fLbjNZvTBuPxAgSY4AAdY4tlE1X0HlwE1MPBd6CAUwcZOw/WmoCthmMBFsY6RkFFOOCZQJ46FuH4JEZek3JzL5bvTvcLogAWbDTjBjE+VDkcYKGDq+WAUyIm4AgXHwzBAUYO66blnyMtOAuKBBjhuBYc3SNn7W/enBx2qrOACEpgsrrM3HGdl8pB6UiE5fsNUHBd128DlH6ByvE3rmmGPw+DtwCUrLBAI1wOSG6a8n55N6MFpziJWyvCRP8/ffQOb15PmLEU2l4GZDrX9o9EoMRSyrYyoAj3cYDWwQxO70riKW07OViE0+uJeErbVgaD48uc8RT+DAkoemPtdj81k6NlTRMzUgAAAABJRU5ErkJggg==">
+        <vector name="origin" x="24" y="46"/>
+      </canvas>
+      <canvas name="2" width="40" height="35" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAYAAADmOUiuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIPSURBVFhH3ZaBkYIwEEVtwRZswRZo4VqwhWuBFmyBWmjBFmiB423465oTToKKc3/mj5LdZF82IO5Wqh/9keq7tunb+rQE8m0bcrjmVD1adGl+saxQQbGSTRXJChUWcci6OrwE0hf/OuxLC/TtuRo2+CJAOhDgSooYHCfwfSze5KT8eOniivvJurjiFCZlCwOnLjCWQrPK82w+gM/uot8/C3Z/76F6HWAGFz0luxXSxhzSH7QM0ON2VSA/Xh01RQAgllLuyufxyTVgGWCPuq7rL5fLX+vN6gZOBVMoFcosOaTAImAUgG3b5vMflsPh43CNGe/3V3fDNWY8GkDBYY3TOaQOrgFEDgeEQVX7q0dA4tx3fLbjNZvTBuPxAgSY4AAdY4tlE1X0HlwE1MPBd6CAUwcZOw/WmoCthmMBFsY6RkFFOOCZQJ46FuH4JEZek3JzL5bvTvcLogAWbDTjBjE+VDkcYKGDq+WAUyIm4AgXHwzBAUYO66blnyMtOAuKBBjhuBYc3SNn7W/enBx2qrOACEpgsrrM3HGdl8pB6UiE5fsNUHBd128DlH6ByvE3rmmGPw+DtwCUrLBAI1wOSG6a8n55N6MFpziJWyvCRP8/ffQOb15PmLEU2l4GZDrX9o9EoMRSyrYyoAj3cYDWwQxO70riKW07OViE0+uJeErbVgaD48uc8RT+DAkoemPtdj81k6NlTRMzUgAAAABJRU5ErkJggg==">
+        <vector name="origin" x="24" y="46"/>
+      </canvas>
+      <uol name="3" value="1"/>
+      <uol name="4" value="2"/>
+      <uol name="5" value="1"/>
+      <uol name="6" value="2"/>
+      <uol name="7" value="0"/>
+    </imgdir>
+    <imgdir name="hang">
+      <canvas name="0" width="24" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAaCAYAAACtv5zzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGgSURBVEhLpZINlYMwEISxgIVaqAUsnIVaOAtYqAW0xAIWsJBmdjO5IYS/3ry3r5Bkv2/DXddIzHU3l/piGF9xeg13JZf67FB4D/H32d8WAD4Oj8NeO/TzuA1nDoez6b+YvM7uLWx6bPzjBkjh4NmXPGnDzShMgTXfKuFaaw+x4U4FjRvYe+y7uKRfVl5nyn8ROVjzLc/etzMY4HHoiyTkdez7MUu+wYlAbvAHp+CCBJzW39HglDzTe4EnqD7XApxFP6ox5Cp2oIYrkLeoBVP+PYIjZfoCF8E7lYkbAuypBCxHblMghFNAgN6IcAqwBoajtrFDZXqBo5GC+h2/VyQxhODTiwDvy7JYzfMcx3FcwQmtBegD09FYBByg9MzJTZDWGJUonEKVgDNNU5FYIwDc1OkZCtCIgY4EtqYCBVGCQxQTDjAFBKmAa7jlrgDPpTmBAFY4muvpVYB9FgVIxnsosUpQVuvToBTOITYCvQWzEkkByOLNtGo4Y8CWiOE+Sz+fisBy5Da2ScBe9gTsB+gs5TBhWgrWs6m+Sg2p6yBd9wF0PJhwbJCWJgAAAABJRU5ErkJggg==">
+        <vector name="origin" x="12" y="68"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="5000002">
+    <imgdir name="stand0">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVEhLxZINlcIwEISxgAUsYKEWzsJZwEItYKFaYgELtZDrt82EbSiFhD5u3puXNj8zs5scdkJM3A01gjH0v3H47XYLEccwmCjf89Qm8v49QrSK5XN9d2oOYQIfVBLDtZvOfhCAKj5oo5lz/nI+Vmvk9v2c6g87WBdaNKx6d/BdgXKfdQGd2i7k9tOFN9/B2pW1B6B1mOsemZuXnmJ+tPbw8v58jU0BlJ7/efolcmhG/jFuClCYe75CDiHjpgAS0VUgQotZm7csQj2QszJ3hVRhYQ7PziAe72See2cMExk5p7O11QsP5uNEM+2Od6YAenx8s5+z6gBas2Q9TEiVrZlDgqnq0ryovr4LCENMcgccmVPbdWXPzNnHmAjK/wXiOI5GQf+Z7JmoAP7hKTg68DLx6uj1b7fbQwhb2EIOkagQIiaYlkS71CdACCGHWCy+Ax9kGAYzHyaqWoxVNQaM8mDEvO/7ZQCYJlZZQmckCBVmLQDrVM4ezBmZt0XHLfh9ixAIq60IQ9d+IQddewMtkIhRAURVmtYFf2Z3mLDMFYAxrX0NZihzAqW5r8OM/zOAsGF+OPwBvAg4v1YRiWQAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="46"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+    </imgdir>
+    <imgdir name="stand1">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVEhLxZINlcIwEISxgAUsYKEWzsJZwEItYKFaYgELtZDrt82EbSiFhD5u3puXNj8zs5scdkJM3A01gjH0v3H47XYLEccwmCjf89Qm8v49QrSK5XN9d2oOYQIfVBLDtZvOfhCAKj5oo5lz/nI+Vmvk9v2c6g87WBdaNKx6d/BdgXKfdQGd2i7k9tOFN9/B2pW1B6B1mOsemZuXnmJ+tPbw8v58jU0BlJ7/efolcmhG/jFuClCYe75CDiHjpgAS0VUgQotZm7csQj2QszJ3hVRhYQ7PziAe72See2cMExk5p7O11QsP5uNEM+2Od6YAenx8s5+z6gBas2Q9TEiVrZlDgqnq0ryovr4LCENMcgccmVPbdWXPzNnHmAjK/wXiOI5GQf+Z7JmoAP7hKTg68DLx6uj1b7fbQwhb2EIOkagQIiaYlkS71CdACCGHWCy+Ax9kGAYzHyaqWoxVNQaM8mDEvO/7ZQCYJlZZQmckCBVmLQDrVM4ezBmZt0XHLfh9ixAIq60IQ9d+IQddewMtkIhRAURVmtYFf2Z3mLDMFYAxrX0NZihzAqW5r8OM/zOAsGF+OPwBvAg4v1YRiWQAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="46"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+    </imgdir>
+    <imgdir name="hungry">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="45"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="move">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVEhLxZINlcIwEISxgAUsYKEWzsJZwEItYKFaYgELtZDrt82EbSiFhD5u3puXNj8zs5scdkJM3A01gjH0v3H47XYLEccwmCjf89Qm8v49QrSK5XN9d2oOYQIfVBLDtZvOfhCAKj5oo5lz/nI+Vmvk9v2c6g87WBdaNKx6d/BdgXKfdQGd2i7k9tOFN9/B2pW1B6B1mOsemZuXnmJ+tPbw8v58jU0BlJ7/efolcmhG/jFuClCYe75CDiHjpgAS0VUgQotZm7csQj2QszJ3hVRhYQ7PziAe72See2cMExk5p7O11QsP5uNEM+2Od6YAenx8s5+z6gBas2Q9TEiVrZlDgqnq0ryovr4LCENMcgccmVPbdWXPzNnHmAjK/wXiOI5GQf+Z7JmoAP7hKTg68DLx6uj1b7fbQwhb2EIOkagQIiaYlkS71CdACCGHWCy+Ax9kGAYzHyaqWoxVNQaM8mDEvO/7ZQCYJlZZQmckCBVmLQDrVM4ezBmZt0XHLfh9ixAIq60IQ9d+IQddewMtkIhRAURVmtYFf2Z3mLDMFYAxrX0NZihzAqW5r8OM/zOAsGF+OPwBvAg4v1YRiWQAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="46"/>
+      </canvas>
+      <canvas name="1" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVEhLxZINlcIwEISxgAUsYKEWzsJZwEItYKFaYgELtZDrt82EbSiFhD5u3puXNj8zs5scdkJM3A01gjH0v3H47XYLEccwmCjf89Qm8v49QrSK5XN9d2oOYQIfVBLDtZvOfhCAKj5oo5lz/nI+Vmvk9v2c6g87WBdaNKx6d/BdgXKfdQGd2i7k9tOFN9/B2pW1B6B1mOsemZuXnmJ+tPbw8v58jU0BlJ7/efolcmhG/jFuClCYe75CDiHjpgAS0VUgQotZm7csQj2QszJ3hVRhYQ7PziAe72See2cMExk5p7O11QsP5uNEM+2Od6YAenx8s5+z6gBas2Q9TEiVrZlDgqnq0ryovr4LCENMcgccmVPbdWXPzNnHmAjK/wXiOI5GQf+Z7JmoAP7hKTg68DLx6uj1b7fbQwhb2EIOkagQIiaYlkS71CdACCGHWCy+Ax9kGAYzHyaqWoxVNQaM8mDEvO/7ZQCYJlZZQmckCBVmLQDrVM4ezBmZt0XHLfh9ixAIq60IQ9d+IQddewMtkIhRAURVmtYFf2Z3mLDMFYAxrX0NZihzAqW5r8OM/zOAsGF+OPwBvAg4v1YRiWQAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="47"/>
+      </canvas>
+      <canvas name="2" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVEhLxZINlcIwEISxgAUsYKEWzsJZwEItYKFaYgELtZDrt82EbSiFhD5u3puXNj8zs5scdkJM3A01gjH0v3H47XYLEccwmCjf89Qm8v49QrSK5XN9d2oOYQIfVBLDtZvOfhCAKj5oo5lz/nI+Vmvk9v2c6g87WBdaNKx6d/BdgXKfdQGd2i7k9tOFN9/B2pW1B6B1mOsemZuXnmJ+tPbw8v58jU0BlJ7/efolcmhG/jFuClCYe75CDiHjpgAS0VUgQotZm7csQj2QszJ3hVRhYQ7PziAe72See2cMExk5p7O11QsP5uNEM+2Od6YAenx8s5+z6gBas2Q9TEiVrZlDgqnq0ryovr4LCENMcgccmVPbdWXPzNnHmAjK/wXiOI5GQf+Z7JmoAP7hKTg68DLx6uj1b7fbQwhb2EIOkagQIiaYlkS71CdACCGHWCy+Ax9kGAYzHyaqWoxVNQaM8mDEvO/7ZQCYJlZZQmckCBVmLQDrVM4ezBmZt0XHLfh9ixAIq60IQ9d+IQddewMtkIhRAURVmtYFf2Z3mLDMFYAxrX0NZihzAqW5r8OM/zOAsGF+OPwBvAg4v1YRiWQAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="54"/>
+      </canvas>
+      <canvas name="3" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG1SURBVEhLxZINlcIwEISxgAUsYKEWzsJZwEItYKFaYgELtdDLt82EbSiFhD5u3puXNj8zs5scdsKUuBtqBKfQ/07Db7dbiGkMg4nyPU9tIu/fI0SrWD7Xd6fmECbwQSVTuHbx7AcBqOKDNpo55y/nY7VGbt/Pqf6wg3WhRcOqdwffFSj3WRfQqe1Cbj9dePMdrF1ZewBah7nukbl56SnmR2sPL+/P19gUQOn5n6dfIodm5B/jpgCFuecr5BAybgogEV0FIrSYtXnLItQDOStzV0gVFubw7Aym453Mc++MIZKRczpbW73wYD5Gmml3vDMF0OPjm/2cVQfQmiXrYUKqbM0cEkxVl+at1QsmDDHJHXBkTm3XlT0zZ18c/Fz5v8A0jqNR0H8meyIVwD88BUcHXiKvjl7/drs9hLCFLeQQiQohYoJpSbRLfQKEEHKIxeI78EGGYTDzIVLVYqyqMWCUByPmfd8vA8A0scoSOiNBqDBrAVincvZgzsi8LTpuwe9bhEBYbUUYuvYLOejaG2iBRIwKIKrStC74M7vDhGWuAIxp7WswQ5kTKM19HWb8nwGEDfPD4Q/rPjbBwkWHkwAAAABJRU5ErkJggg==">
+        <vector name="origin" x="17" y="47"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="jump">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVEhLxZINlcIwEISxgAUsYKEWzsJZwEItYKFaYgELtZDrt82EbSiFhD5u3puXNj8zs5scdkJM3A01gjH0v3H47XYLEccwmCjf89Qm8v49QrSK5XN9d2oOYQIfVBLDtZvOfhCAKj5oo5lz/nI+Vmvk9v2c6g87WBdaNKx6d/BdgXKfdQGd2i7k9tOFN9/B2pW1B6B1mOsemZuXnmJ+tPbw8v58jU0BlJ7/efolcmhG/jFuClCYe75CDiHjpgAS0VUgQotZm7csQj2QszJ3hVRhYQ7PziAe72See2cMExk5p7O11QsP5uNEM+2Od6YAenx8s5+z6gBas2Q9TEiVrZlDgqnq0ryovr4LCENMcgccmVPbdWXPzNnHmAjK/wXiOI5GQf+Z7JmoAP7hKTg68DLx6uj1b7fbQwhb2EIOkagQIiaYlkS71CdACCGHWCy+Ax9kGAYzHyaqWoxVNQaM8mDEvO/7ZQCYJlZZQmckCBVmLQDrVM4ezBmZt0XHLfh9ixAIq60IQ9d+IQddewMtkIhRAURVmtYFf2Z3mLDMFYAxrX0NZihzAqW5r8OM/zOAsGF+OPwBvAg4v1YRiWQAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="46"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="rest0">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG2SURBVEhLxZINlcIwEISxgAUsYKEWzsJZwEItYKFaYgELtZDrt82EbSiFhD5u3puXNj8zs5scdkJM3A01gjH0v3H47XYLEccwmCjf89Qm8v49QrSK5XN9d2oOYQIfVBLDtZvOfhCAKj5oo5lz/nI+Vmvk9v2c6g87WBdaNKx6d/BdgXKfdQGd2i7k9tOFN9/B2pW1B6B1mOsemZuXnmJ+tPbw8v58jU0BlJ7/efolcmhG/jFuClCYe75CDiHjpgAS0VUgQotZm7csQj2QszJ3hVRhYQ7PziAe72See2cMExk5p7O11QsP5uNEM+2Od6YAenx8s5+z6gBas2Q9TEiVrZlDgqnq0ryovr4LCENMcgccmVPbdWXPzNnHmAjK/wXiOI5GQf+Z7JmoAP7hKTg68DLx6uj1b7fbQwhb2EIOkagQIiaYlkS71CdACCGHWCy+Ax9kGAYzHyaqWoxVNQaM8mDEvO/7ZQCYJlZZQmckCBVmLQDrVM4ezBmZt0XHLfh9ixAIq60IQ9d+IQddewMtkIhRAURVmtYFf2Z3mLDMFYAxrX0NZihzAqW5r8OM/zOAsGF+OPwBvAg4v1YRiWQAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="44"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+    </imgdir>
+    <imgdir name="chat">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="46"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+      <uol name="9" value="0"/>
+      <uol name="10" value="0"/>
+      <uol name="11" value="0"/>
+      <uol name="12" value="0"/>
+      <uol name="13" value="0"/>
+      <uol name="14" value="0"/>
+      <uol name="15" value="0"/>
+    </imgdir>
+    <imgdir name="angry">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="46"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+      <uol name="9" value="0"/>
+      <uol name="10" value="0"/>
+      <uol name="11" value="0"/>
+      <uol name="12" value="0"/>
+      <uol name="13" value="0"/>
+      <uol name="14" value="0"/>
+      <uol name="15" value="0"/>
+    </imgdir>
+    <imgdir name="hang">
+      <canvas name="0" width="24" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAaCAYAAACtv5zzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGgSURBVEhLpZINlYMwEISxgIVaqAUsnIVaOAtYqAW0xAIWsJBmdjO5IYS/3ry3r5Bkv2/DXddIzHU3l/piGF9xeg13JZf67FB4D/H32d8WAD4Oj8NeO/TzuA1nDoez6b+YvM7uLWx6bPzjBkjh4NmXPGnDzShMgTXfKuFaaw+x4U4FjRvYe+y7uKRfVl5nyn8ROVjzLc/etzMY4HHoiyTkdez7MUu+wYlAbvAHp+CCBJzW39HglDzTe4EnqD7XApxFP6ox5Cp2oIYrkLeoBVP+PYIjZfoCF8E7lYkbAuypBCxHblMghFNAgN6IcAqwBoajtrFDZXqBo5GC+h2/VyQxhODTiwDvy7JYzfMcx3FcwQmtBegD09FYBByg9MzJTZDWGJUonEKVgDNNU5FYIwDc1OkZCtCIgY4EtqYCBVGCQxQTDjAFBKmAa7jlrgDPpTmBAFY4muvpVYB9FgVIxnsosUpQVuvToBTOITYCvQWzEkkByOLNtGo4Y8CWiOE+Sz+fisBy5Da2ScBe9gTsB+gs5TBhWgrWs6m+Sg2p6yBd9wF0PJhwbJCWJgAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="59"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="hug">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="54"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="rise">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="10" y="52"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="dung">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="18" y="46"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="cry">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="45"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="nap">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="42"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+    </imgdir>
+    <imgdir name="prone">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="20" y="40"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+    </imgdir>
+    <imgdir name="donno">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="46"/>
+      </canvas>
+      <canvas name="1" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="46"/>
+      </canvas>
+      <canvas name="2" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="45"/>
+      </canvas>
+      <uol name="3" value="0"/>
+      <uol name="4" value="1"/>
+      <uol name="5" value="2"/>
+    </imgdir>
+    <imgdir name="complain">
+      <canvas name="0" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="9" y="52"/>
+      </canvas>
+      <canvas name="1" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="8" y="52"/>
+      </canvas>
+      <canvas name="2" width="32" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAYAAAAdx42aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhLxZIBlYMwEERrAQu1UAtYOAu1UAtYqAW0YKEWsJDjL5l0STlKUl5v3psXSLIzk01OByFEHoYSwTB019Bf28NChHHoTZTveWoTaf8RIWrFUl3XnqtDmMAHJwnDvZ1qPwjAKT5oo5lTf7s0xRqpfT/n8mIH60KNhp3eFe4VyPdZF9Ap7UJqP13Y+Q7Wrqw+AK3DXPfI3Lz0J+ZHaw8v7U/XWBVA6fmfp98ihWbkH+OqAJm55zukEDKuCiARXQUitJi1ecsi1Auplbk7SBEW5vDiDELzJPPcO+MwkZE61ZaeXngxHyeaads8GQPo8fHNfmrVAbQci2BCOtmaOSSYTp2b6/TUQ75NeSdMGGKSOuDInNquK8vNbxPvkVkIfet/gTCOo1HQfyJ7JiqAf3gKjrmoENDrPx6PlxC2sIUUIlIhREy8uYh2rk+AYRhSiMXiHvggfd+beT9Rp8VYp8aAUR6MmHddtwwA48Qqc6hGglBh1gKwzsnZgzkj87bouAW/bxECYbUVYejaL6Sga2+gBhIxKoCok8Z1wdccDhOWuQIwxrWvwQxlTqA493WY8X8GEDbMT6dfm6BB6bHki8MAAAAASUVORK5CYII=">
+        <vector name="origin" x="10" y="52"/>
+      </canvas>
+      <uol name="3" value="1"/>
+      <uol name="4" value="2"/>
+      <uol name="5" value="1"/>
+      <uol name="6" value="2"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="1"/>
+      <uol name="9" value="2"/>
+      <uol name="10" value="1"/>
+      <uol name="11" value="2"/>
+      <uol name="12" value="1"/>
+      <uol name="13" value="2"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="5000003">
+    <imgdir name="stand0">
+      <canvas name="0" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="20" y="51"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+    </imgdir>
+    <imgdir name="stand1">
+      <canvas name="0" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="20" y="51"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+    </imgdir>
+    <imgdir name="hungry">
+      <canvas name="0" width="30" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAbCAYAAABr/T8RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVEhLvZMNkYMwEIVrAQu1UAtYOAu1cBawUAtowUItYIHje8nLbJmUC71e38yb/LC7XzbA6Rct2R+TgPM0LtNw/RhcMEPHa38E/PIhCzB02gzd5DWrQBlZp+1mKY8bGvrzoXxBv86dzDptH5JqHHk9pdsAbU4OKnVau04Jt75c1dGTB61553Zwgpbg6KPSgb8vba9L0Bfeby1WTbTW0dVUOt6TXkflDyhNME9b+9JJMYdoSBTY3wVrbGjrVSMlGIopzH7wVuWm/DE5/zAYX1KCxqXvlqVbx9XsBVsFzhwgNZjraYNUANi02jCB7XXNc67Wh8NADXwCLrFaBS3TNKkYnrO3UIPje2XNgX3FNag1z/PDM0HZjHroOpgDGcYIiHnsmH3XjnXv97tY7OshixrcnUcrPnz5hhqsG8lxrg2Q2lsw0oKHtsWcQlhFdc3pamOXjNS4ZY+rWbspQ6mXeQ8qwRGODPaHFKHsY0OJNdj19qBRu3BMjOdAtp1mW7W9p1JgPACjAREUx5z3FgluAa8dABPHuyQnpf5dpXMbgD8YPAzDMo7j28GoQAyNYKDAmRObUt4nFY2waMA55t9kQM0NOp1+APC5PJkSW+oFAAAAAElFTkSuQmCC">
+        <vector name="origin" x="12" y="49"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="move">
+      <canvas name="0" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="21" y="53"/>
+      </canvas>
+      <canvas name="1" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="22" y="53"/>
+      </canvas>
+      <canvas name="2" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="22" y="49"/>
+      </canvas>
+      <canvas name="3" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="25" y="50"/>
+      </canvas>
+      <canvas name="4" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="25" y="51"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="jump">
+      <canvas name="0" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="22" y="53"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="rest0">
+      <canvas name="0" width="30" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAbCAYAAABr/T8RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVEhLvZMNkYMwEIVrAQu1UAtYOAu1cBawUAtowUItYIHje8nLbJmUC71e38yb/LC7XzbA6Rct2R+TgPM0LtNw/RhcMEPHa38E/PIhCzB02gzd5DWrQBlZp+1mKY8bGvrzoXxBv86dzDptH5JqHHk9pdsAbU4OKnVau04Jt75c1dGTB61553Zwgpbg6KPSgb8vba9L0Bfeby1WTbTW0dVUOt6TXkflDyhNME9b+9JJMYdoSBTY3wVrbGjrVSMlGIopzH7wVuWm/DE5/zAYX1KCxqXvlqVbx9XsBVsFzhwgNZjraYNUANi02jCB7XXNc67Wh8NADXwCLrFaBS3TNKkYnrO3UIPje2XNgX3FNag1z/PDM0HZjHroOpgDGcYIiHnsmH3XjnXv97tY7OshixrcnUcrPnz5hhqsG8lxrg2Q2lsw0oKHtsWcQlhFdc3pamOXjNS4ZY+rWbspQ6mXeQ8qwRGODPaHFKHsY0OJNdj19qBRu3BMjOdAtp1mW7W9p1JgPACjAREUx5z3FgluAa8dABPHuyQnpf5dpXMbgD8YPAzDMo7j28GoQAyNYKDAmRObUt4nFY2waMA55t9kQM0NOp1+APC5PJkSW+oFAAAAAElFTkSuQmCC">
+        <vector name="origin" x="12" y="49"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+    </imgdir>
+    <imgdir name="chat">
+      <canvas name="0" width="30" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAbCAYAAABr/T8RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVEhLvZMNkYMwEIVrAQu1UAtYOAu1cBawUAtowUItYIHje8nLbJmUC71e38yb/LC7XzbA6Rct2R+TgPM0LtNw/RhcMEPHa38E/PIhCzB02gzd5DWrQBlZp+1mKY8bGvrzoXxBv86dzDptH5JqHHk9pdsAbU4OKnVau04Jt75c1dGTB61553Zwgpbg6KPSgb8vba9L0Bfeby1WTbTW0dVUOt6TXkflDyhNME9b+9JJMYdoSBTY3wVrbGjrVSMlGIopzH7wVuWm/DE5/zAYX1KCxqXvlqVbx9XsBVsFzhwgNZjraYNUANi02jCB7XXNc67Wh8NADXwCLrFaBS3TNKkYnrO3UIPje2XNgX3FNag1z/PDM0HZjHroOpgDGcYIiHnsmH3XjnXv97tY7OshixrcnUcrPnz5hhqsG8lxrg2Q2lsw0oKHtsWcQlhFdc3pamOXjNS4ZY+rWbspQ6mXeQ8qwRGODPaHFKHsY0OJNdj19qBRu3BMjOdAtp1mW7W9p1JgPACjAREUx5z3FgluAa8dABPHuyQnpf5dpXMbgD8YPAzDMo7j28GoQAyNYKDAmRObUt4nFY2waMA55t9kQM0NOp1+APC5PJkSW+oFAAAAAElFTkSuQmCC">
+        <vector name="origin" x="16" y="52"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="angry">
+      <canvas name="0" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="17" y="68"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="hang">
+      <canvas name="0" width="24" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAaCAYAAACtv5zzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGgSURBVEhLpZINlYMwEISxgIVaqAUsnIVaOAtYqAW0xAIWsJBmdjO5IYS/3ry3r5Bkv2/DXddIzHU3l/piGF9xeg13JZf67FB4D/H32d8WAD4Oj8NeO/TzuA1nDoez6b+YvM7uLWx6bPzjBkjh4NmXPGnDzShMgTXfKuFaaw+x4U4FjRvYe+y7uKRfVl5nyn8ROVjzLc/etzMY4HHoiyTkdez7MUu+wYlAbvAHp+CCBJzW39HglDzTe4EnqD7XApxFP6ox5Cp2oIYrkLeoBVP+PYIjZfoCF8E7lYkbAuypBCxHblMghFNAgN6IcAqwBoajtrFDZXqBo5GC+h2/VyQxhODTiwDvy7JYzfMcx3FcwQmtBegD09FYBByg9MzJTZDWGJUonEKVgDNNU5FYIwDc1OkZCtCIgY4EtqYCBVGCQxQTDjAFBKmAa7jlrgDPpTmBAFY4muvpVYB9FgVIxnsosUpQVuvToBTOITYCvQWzEkkByOLNtGo4Y8CWiOE+Sz+fisBy5Da2ScBe9gTsB+gs5TBhWgrWs6m+Sg2p6yBd9wF0PJhwbJCWJgAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="70"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="dung">
+      <canvas name="0" width="30" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAbCAYAAABr/T8RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVEhLvZMNkYMwEIVrAQu1UAtYOAu1cBawUAtowUItYIHje8nLbJmUC71e38yb/LC7XzbA6Rct2R+TgPM0LtNw/RhcMEPHa38E/PIhCzB02gzd5DWrQBlZp+1mKY8bGvrzoXxBv86dzDptH5JqHHk9pdsAbU4OKnVau04Jt75c1dGTB61553Zwgpbg6KPSgb8vba9L0Bfeby1WTbTW0dVUOt6TXkflDyhNME9b+9JJMYdoSBTY3wVrbGjrVSMlGIopzH7wVuWm/DE5/zAYX1KCxqXvlqVbx9XsBVsFzhwgNZjraYNUANi02jCB7XXNc67Wh8NADXwCLrFaBS3TNKkYnrO3UIPje2XNgX3FNag1z/PDM0HZjHroOpgDGcYIiHnsmH3XjnXv97tY7OshixrcnUcrPnz5hhqsG8lxrg2Q2lsw0oKHtsWcQlhFdc3pamOXjNS4ZY+rWbspQ6mXeQ8qwRGODPaHFKHsY0OJNdj19qBRu3BMjOdAtp1mW7W9p1JgPACjAREUx5z3FgluAa8dABPHuyQnpf5dpXMbgD8YPAzDMo7j28GoQAyNYKDAmRObUt4nFY2waMA55t9kQM0NOp1+APC5PJkSW+oFAAAAAElFTkSuQmCC">
+        <vector name="origin" x="16" y="52"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+      <uol name="9" value="0"/>
+      <uol name="10" value="0"/>
+      <uol name="11" value="0"/>
+      <uol name="12" value="0"/>
+      <uol name="13" value="0"/>
+      <uol name="14" value="0"/>
+      <uol name="15" value="0"/>
+      <uol name="16" value="0"/>
+      <uol name="17" value="0"/>
+      <uol name="18" value="0"/>
+      <uol name="19" value="0"/>
+    </imgdir>
+    <imgdir name="eye">
+      <canvas name="0" width="31" height="32" basedata="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAgCAYAAADqgqNBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIkSURBVFhHxZaLccIwEERpgRZoIS3QQlqghbTgFmjBtbgFWnALit6dVjkrMhhCYGd2bEvyvdXHJLs/KjV+mdI0nNJ4OpqH4+GlIdI8jRaA63g6WICvj/3rAsjTmRU42Cq8MoBkcEJ8HvbvC/AuODIw+08InoOfrl5xCyD4PM/pcrm0Yxa62rkiP/F5nzHPsuBafuDTNKl/ofrZcO9Nm1ROuX/nftrdgLfAK5giPHvzJmm8mQAKEff9I/cBZvnL2CoDPzTr4NHfNSuElh54D4zKL9Rds15AZdq5AtOsBafP3my0NvPu4Kw0Z6e9XzEhaMeAAMaZl76ubOYM5t6b8gzWVyKl434Btz0tJ14z1pXxHVfVZdfgG2fAwOYSgjadeAWJ+33OHobBPI7jr7oGo4B/Kr9mrecfqFxWQP3A9KlxTxtwzgLb0wvgn1tYNtq8y4Op0AIcAlAYCGOYNeM161twVH4wHM69tWVwOA99eLYOngJEsOBYy1/qLVThWoF2FXpgc1l+BehZ4DU4sgARHgKYgSz2nvsAx5ppC2fJr8FR3f82hIIsAgS4ArRwoPItOLIBMYCutG+FY37XseCl9iZpcDUFBYxem7XgClDq3KVatM46QAUWHKj+idCfU0wdL3efrLBA0RFq4TI0+to/Elvk+5WvAkVYD4qeAUZ1v9aArdTOu8UPy+AqGB3V9vGev/531QCtVqBPA0vdFaC98b/pSbDd7hv/Hx7FOodoywAAAABJRU5ErkJggg==">
+        <vector name="origin" x="38" y="55"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+      <uol name="9" value="0"/>
+      <uol name="10" value="0"/>
+      <uol name="11" value="0"/>
+      <uol name="12" value="0"/>
+      <uol name="13" value="0"/>
+      <uol name="14" value="0"/>
+      <uol name="15" value="0"/>
+      <uol name="16" value="0"/>
+      <uol name="17" value="0"/>
+      <uol name="18" value="0"/>
+      <uol name="19" value="0"/>
+    </imgdir>
+    <imgdir name="prone">
+      <canvas name="0" width="31" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAZCAYAAADJ9/UkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVEhLxZQNkYMwEIWxgIVaqAUsnIVaOAtYqIVqiYVawEKOb5OXW9IDAp3pvZkd8rO7770E6N5EzPFxxDDe4uM2SMBHRcQpPIqAcbj8p4DL2wLOFMdwH4ycE/i+9qcEFBeM01IzjBwRZ8gX98c8LR+CCfi69GsCtPbS+x3XHmvk8fl8xmma7Mk8LSecca1cn28vHQIYp6UuCiIPIZT9M66tBrHcM3MFriv3RrpJXikumxswwdT5z2yN3BP7oy8uKKLJgSuwHAmgXqE9AkIFxAjJe7/3nSJ9r9psgOVSh1udIOMr63kfUud40dvuToXM07JhkZihHCMI+Um9jl3r9zkkIMcLyl/q5ciWL6KNY5/IdFqMqfvLNQJy3SYKuT8FyGnEPqRx6Au5z5NrEeO4cr0Ja4AANSRoVEgV83ya19mrRdTkrc6BNfLEkCzIGWdy3bVeNtXgljDy6tPagyXixFzNUQQ4YjlHrCcmypE/5v/HOBo5InLvXZRG+jt5sOaOc0HqHUMuAa3klqi/0hq0r9B3TK0PkdM3td9GIW/Fmgg5p2dqvQ9rIgFHA2KRHiUWrBECGK8F+96h5lXeKbQUexIfDei6H2tff6so21L7AAAAAElFTkSuQmCC">
+        <vector name="origin" x="33" y="48"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+    </imgdir>
+    <imgdir name="rise">
+      <canvas name="0" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="12" y="56"/>
+      </canvas>
+      <uol name="1" value="0"/>
+      <uol name="2" value="0"/>
+      <uol name="3" value="0"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="0"/>
+      <uol name="6" value="0"/>
+      <uol name="7" value="0"/>
+      <uol name="8" value="0"/>
+      <uol name="9" value="0"/>
+      <uol name="10" value="0"/>
+      <uol name="11" value="0"/>
+      <uol name="12" value="0"/>
+      <uol name="13" value="0"/>
+      <uol name="14" value="0"/>
+      <uol name="15" value="0"/>
+      <uol name="16" value="0"/>
+      <uol name="17" value="0"/>
+      <uol name="18" value="0"/>
+      <uol name="19" value="0"/>
+    </imgdir>
+    <imgdir name="yes">
+      <canvas name="0" width="30" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAbCAYAAABr/T8RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVEhLvZMNkYMwEIVrAQu1UAtYOAu1cBawUAtowUItYIHje8nLbJmUC71e38yb/LC7XzbA6Rct2R+TgPM0LtNw/RhcMEPHa38E/PIhCzB02gzd5DWrQBlZp+1mKY8bGvrzoXxBv86dzDptH5JqHHk9pdsAbU4OKnVau04Jt75c1dGTB61553Zwgpbg6KPSgb8vba9L0Bfeby1WTbTW0dVUOt6TXkflDyhNME9b+9JJMYdoSBTY3wVrbGjrVSMlGIopzH7wVuWm/DE5/zAYX1KCxqXvlqVbx9XsBVsFzhwgNZjraYNUANi02jCB7XXNc67Wh8NADXwCLrFaBS3TNKkYnrO3UIPje2XNgX3FNag1z/PDM0HZjHroOpgDGcYIiHnsmH3XjnXv97tY7OshixrcnUcrPnz5hhqsG8lxrg2Q2lsw0oKHtsWcQlhFdc3pamOXjNS4ZY+rWbspQ6mXeQ8qwRGODPaHFKHsY0OJNdj19qBRu3BMjOdAtp1mW7W9p1JgPACjAREUx5z3FgluAa8dABPHuyQnpf5dpXMbgD8YPAzDMo7j28GoQAyNYKDAmRObUt4nFY2waMA55t9kQM0NOp1+APC5PJkSW+oFAAAAAElFTkSuQmCC">
+        <vector name="origin" x="12" y="49"/>
+      </canvas>
+      <canvas name="1" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="16" y="47"/>
+      </canvas>
+      <canvas name="2" width="31" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAZCAYAAADJ9/UkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVEhLxZQNkYMwEIWxgIVaqAUsnIVaOAtYqIVqiYVawEKOb5OXW9IDAp3pvZkd8rO7770E6N5EzPFxxDDe4uM2SMBHRcQpPIqAcbj8p4DL2wLOFMdwH4ycE/i+9qcEFBeM01IzjBwRZ8gX98c8LR+CCfi69GsCtPbS+x3XHmvk8fl8xmma7Mk8LSecca1cn28vHQIYp6UuCiIPIZT9M66tBrHcM3MFriv3RrpJXikumxswwdT5z2yN3BP7oy8uKKLJgSuwHAmgXqE9AkIFxAjJe7/3nSJ9r9psgOVSh1udIOMr63kfUud40dvuToXM07JhkZihHCMI+Um9jl3r9zkkIMcLyl/q5ciWL6KNY5/IdFqMqfvLNQJy3SYKuT8FyGnEPqRx6Au5z5NrEeO4cr0Ja4AANSRoVEgV83ya19mrRdTkrc6BNfLEkCzIGWdy3bVeNtXgljDy6tPagyXixFzNUQQ4YjlHrCcmypE/5v/HOBo5InLvXZRG+jt5sOaOc0HqHUMuAa3klqi/0hq0r9B3TK0PkdM3td9GIW/Fmgg5p2dqvQ9rIgFHA2KRHiUWrBECGK8F+96h5lXeKbQUexIfDei6H2tff6so21L7AAAAAElFTkSuQmCC">
+        <vector name="origin" x="24" y="47"/>
+      </canvas>
+      <uol name="3" value="1"/>
+      <uol name="4" value="0"/>
+      <uol name="5" value="1"/>
+      <uol name="6" value="2"/>
+      <uol name="7" value="1"/>
+      <uol name="8" value="0"/>
+      <uol name="9" value="1"/>
+      <uol name="10" value="2"/>
+      <uol name="11" value="1"/>
+      <uol name="12" value="0"/>
+      <uol name="13" value="1"/>
+      <uol name="14" value="2"/>
+      <uol name="15" value="1"/>
+    </imgdir>
+    <imgdir name="cry">
+      <canvas name="0" width="30" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAbCAYAAABr/T8RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVEhLvZMNkYMwEIVrAQu1UAtYOAu1cBawUAtowUItYIHje8nLbJmUC71e38yb/LC7XzbA6Rct2R+TgPM0LtNw/RhcMEPHa38E/PIhCzB02gzd5DWrQBlZp+1mKY8bGvrzoXxBv86dzDptH5JqHHk9pdsAbU4OKnVau04Jt75c1dGTB61553Zwgpbg6KPSgb8vba9L0Bfeby1WTbTW0dVUOt6TXkflDyhNME9b+9JJMYdoSBTY3wVrbGjrVSMlGIopzH7wVuWm/DE5/zAYX1KCxqXvlqVbx9XsBVsFzhwgNZjraYNUANi02jCB7XXNc67Wh8NADXwCLrFaBS3TNKkYnrO3UIPje2XNgX3FNag1z/PDM0HZjHroOpgDGcYIiHnsmH3XjnXv97tY7OshixrcnUcrPnz5hhqsG8lxrg2Q2lsw0oKHtsWcQlhFdc3pamOXjNS4ZY+rWbspQ6mXeQ8qwRGODPaHFKHsY0OJNdj19qBRu3BMjOdAtp1mW7W9p1JgPACjAREUx5z3FgluAa8dABPHuyQnpf5dpXMbgD8YPAzDMo7j28GoQAyNYKDAmRObUt4nFY2waMA55t9kQM0NOp1+APC5PJkSW+oFAAAAAElFTkSuQmCC">
+        <vector name="origin" x="12" y="49"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="alert">
+      <canvas name="0" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="20" y="51"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="no">
+      <canvas name="0" width="29" height="28" basedata="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFvSURBVEhLtZMBscMgEERjoRZqoRZioRZq4VuohVqIFizEQixQ9mDJ5QoNPw07s1O4JDz2oEODvHFXCWRxk3fPh58eozjVu2gDe47XbDyLr5wrARKGufHpysD79dINouXdaxQDitailvyLvq4TYOvZYWxafESbu4F5LEdJQrRUPcwbSPOjqkMrqT5ePKiw/mcASQn/eJa17wT4d1svpxQAxC8MsN1Vg/JFxDiWsqSTGjowZSrkTaR5q2ThAjT/IzZQJRaKD3eUz810SYCtIfiStlaxZi5MTlhLqeUXYxeMOl1IBElNJ4ZbgCKA/GU14VP8OC9YOkNA0U7AzH3ZF9KV4BaMMc1khDWn1CJYGzWAbxiHpFicG+D4MBDC4oBoMynaqM+v0M7/AylACCcQAJ3OgI7DrAgPw5r7CNCXcSj3hxOkodCyLH6e5z5gC9VgQJ1zfcBBGzDGTNoTSgkAMAIBT/VTZRcUWE9gTYTtAIfhDZCPCxKqYA/XAAAAAElFTkSuQmCC">
+        <vector name="origin" x="-4" y="47"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="smile">
+      <canvas name="0" width="30" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVEhLtZQBkYMwEEVrAQu1UAtYOAu1cBawUAtowUItYCGXt+RvQxpaUnp/5g802d23m3B3+oJC8mG1FArTcA3jtT8MD/M0WjHel6WX8vgj8E+LeN7Qn5vhlnig8zDd+pj7AZiuDxyXQcn/vXS7a/gx/Zz3J1VkU7fUsGmzhL2JZZxNTZ29U/sxM/XOe65dTTuYIwKqe2Jt2drU8jHaB+Xxfl0VsMfYryT/IlvuJ8qb5clvgBVwQPM8h/v9vqpfQnO/k8MFLMAGlQBP0+S1PVlHTjJHqYD03DS5gmYDIJsUaeIcjFZQfIlrmL3QPcwa98pzSjHkKZcGlGd1IwigoDSQ9kxP0DnaYH33cALro+KdeHI1se1Hj9G3aGoDrEElK6DEGhTTEDFqNIdqWkF5UrfwkywJU9wnzsyajldXU0IBYuKouZTelh+FRCJWE7Kg+QdVQrNJ32oFLcWeGgGQQ/lta8kt0yKf+FUDSHBZE+bTUqv8Z/FKCnSXxy+xJlDpYRjCOI5N4Jo2m9Dp5H+jGChw3lPuYa0aqIGBCpzivyorCiCfUtY+gf+lHJJ7h06nP2DgM5Hinw86AAAAAElFTkSuQmCC">
+        <vector name="origin" x="20" y="51"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="sneer">
+      <canvas name="0" width="31" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAZCAYAAADJ9/UkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHGSURBVEhLxZQNkYMwEIWxgIVaqAUsnIVaOAtYqIVqiYVawEKOb5OXW9IDAp3pvZkd8rO7770E6N5EzPFxxDDe4uM2SMBHRcQpPIqAcbj8p4DL2wLOFMdwH4ycE/i+9qcEFBeM01IzjBwRZ8gX98c8LR+CCfi69GsCtPbS+x3XHmvk8fl8xmma7Mk8LSecca1cn28vHQIYp6UuCiIPIZT9M66tBrHcM3MFriv3RrpJXikumxswwdT5z2yN3BP7oy8uKKLJgSuwHAmgXqE9AkIFxAjJe7/3nSJ9r9psgOVSh1udIOMr63kfUud40dvuToXM07JhkZihHCMI+Um9jl3r9zkkIMcLyl/q5ciWL6KNY5/IdFqMqfvLNQJy3SYKuT8FyGnEPqRx6Au5z5NrEeO4cr0Ja4AANSRoVEgV83ya19mrRdTkrc6BNfLEkCzIGWdy3bVeNtXgljDy6tPagyXixFzNUQQ4YjlHrCcmypE/5v/HOBo5InLvXZRG+jt5sOaOc0HqHUMuAa3klqi/0hq0r9B3TK0PkdM3td9GIW/Fmgg5p2dqvQ9rIgFHA2KRHiUWrBECGK8F+96h5lXeKbQUexIfDei6H2tff6so21L7AAAAAElFTkSuQmCC">
+        <vector name="origin" x="27" y="48"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="front">
+      <canvas name="0" width="31" height="32" basedata="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAgCAYAAADqgqNBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIkSURBVFhHxZaLccIwEERpgRZoIS3QQlqghbTgFmjBtbgFWnALit6dVjkrMhhCYGd2bEvyvdXHJLs/KjV+mdI0nNJ4OpqH4+GlIdI8jRaA63g6WICvj/3rAsjTmRU42Cq8MoBkcEJ8HvbvC/AuODIw+08InoOfrl5xCyD4PM/pcrm0Yxa62rkiP/F5nzHPsuBafuDTNKl/ofrZcO9Nm1ROuX/nftrdgLfAK5giPHvzJmm8mQAKEff9I/cBZvnL2CoDPzTr4NHfNSuElh54D4zKL9Rds15AZdq5AtOsBafP3my0NvPu4Kw0Z6e9XzEhaMeAAMaZl76ubOYM5t6b8gzWVyKl434Btz0tJ14z1pXxHVfVZdfgG2fAwOYSgjadeAWJ+33OHobBPI7jr7oGo4B/Kr9mrecfqFxWQP3A9KlxTxtwzgLb0wvgn1tYNtq8y4Op0AIcAlAYCGOYNeM161twVH4wHM69tWVwOA99eLYOngJEsOBYy1/qLVThWoF2FXpgc1l+BehZ4DU4sgARHgKYgSz2nvsAx5ppC2fJr8FR3f82hIIsAgS4ArRwoPItOLIBMYCutG+FY37XseCl9iZpcDUFBYxem7XgClDq3KVatM46QAUWHKj+idCfU0wdL3efrLBA0RFq4TI0+to/Elvk+5WvAkVYD4qeAUZ1v9aArdTOu8UPy+AqGB3V9vGev/531QCtVqBPA0vdFaC98b/pSbDd7hv/Hx7FOodoywAAAABJRU5ErkJggg==">
+        <vector name="origin" x="39" y="57"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <uol name="5000004" value="5000000"/>
+  <uol name="5000005" value="5000002"/>
+</imgdir>

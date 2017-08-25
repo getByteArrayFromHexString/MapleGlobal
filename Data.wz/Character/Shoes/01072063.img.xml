@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01072063.img">
+  <imgdir name="info">
+    <canvas name="icon" width="26" height="28" basedata="iVBORw0KGgoAAAANSUhEUgAAABoAAAAcCAYAAAB/E6/TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHLSURBVEhLrZSBmYIwDEZdgRVcgRVYgRVYgRVYgRVYgRVY4Wbh8mL/XqzFEzXf9xRqmteUyuVE7BW+Gl50Gbo/umbvmu8KvSiM18ve2D1I1Bq9jZOXeCvuBNwDxaNI40F4KrKE64gkkBageEu2b9OQi4soCd0Qfn12G12iQto2DoEkwBjJfE/tDe1A8fthZJE/+HTS5u5WqNieLAEE5FUWUw1PRgZci/DMFPtgY0j4ZhFnRIQ/j9gNYwlF7iRLUldnREQsXptwJ/lE9CyyRCIKL/31lERJkRhZIFkpeUW0r2PvMFEwDpxCitCBZBLFbUv5h+GCbZ33bZ6CrPHDoNWTp60SZ05alvysi4NsGVor0rgkbhP5TyQvirZt35bZ7u1oW0dsSSlS0SgJosPwCax+nUeHa5fYOEgSRVDp5mn4qpfh6l15J3btkqKbKDorIfzVwkR/JkUn35IQfopcZkVLiY7ypxKFiyLq4qsSCsTCEQliDnMM+/8+5SF8st7U/rbmT2qwdeUiyDe6f2gTV+NOelesBjmJqWA8YDB6A6HL+MAci9WYDyjFkldF3NAyP5AA5QprKFdFhbbvYevUlSCpJO59JM4DaokUl8svu+Fr5I6FnOEAAAAASUVORK5CYII=">
+      <vector name="origin" x="-4" y="28"/>
+    </canvas>
+    <canvas name="iconRaw" width="24" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAaCAYAAACtv5zzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGUSURBVEhLrZQBkYQwFEOxgAUsYAELWMACFrCAhVrAAhZOS7cJTe9TOnuFIzOZLeX35VO6NDfkC35FhLlp+PXQ+qF9J4gweO4a34ZrWAF98BjmURd9SycwrmFAbYDmTVCVEhxja8HhGCzdCvH7MiWobOGme4jj2u0iXABtD16u4DDmUIzfpT+sJ87uX5QC+ELjyVmHA5BtQ4LDAKOu0MRJLEIIjLFs3onkpzAHOH4RXhMAcb9t95iLllLnCR6foiYAstBS4Qn+JOCbElwBALqxq4LrprVVAiskh38L8Ns80lggYx7GqcJidKwQBdjtifUXEbxvq9/XxYS0fMnqFnXaErnm5CT4z+ZohLipD4tbwu12oP4L/I+Affe7W8N1OKLhCfDoeYBgFm4CLmIhut3WmcaY8DAPC24D4EL3RbFLN3V8CnYexoRn3duAWjjETwAWcM+zzv8Lh3gqGBJgOVxH8ilcYoC1un4FjoUWaC2wrcGaY2mduEhfTn498ecKxhbl4ag/lt3TCVIyaqIfy0JKfqCm+QDgiE6sQYUcFAAAAABJRU5ErkJggg==">
+      <vector name="origin" x="-4" y="28"/>
+    </canvas>
+    <string name="islot" value="So"/>
+    <string name="vslot" value="So"/>
+    <int name="reqJob" value="0"/>
+    <int name="reqLevel" value="21"/>
+    <int name="reqSTR" value="0"/>
+    <int name="reqDEX" value="0"/>
+    <int name="reqINT" value="0"/>
+    <int name="reqLUK" value="0"/>
+    <int name="incPDD" value="10"/>
+    <int name="tuc" value="5"/>
+    <int name="price" value="5000"/>
+    <int name="cash" value="0"/>
+  </imgdir>
+  <imgdir name="walk1">
+    <imgdir name="0">
+      <canvas name="shoes" width="10" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAAAoAAAALCAYAAABGbhwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABOSURBVChTY8AC/kMxUYBoxTCFeBX/TzPGrxAsMTMURSEIYCiGSSIrAgF0PooiZAkU/v93HUpgjGY1Moa4C6YAGWMoJAKDATYJZAwEDAwALnpL1/1b8DQAAAAASUVORK5CYII=">
+        <vector name="origin" x="5" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-9" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="26" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAABoAAAAKCAYAAACqnE5VAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACDSURBVDhPtZGBDYAwCASZxRWcxRWcxRVc0hUwYGmehio16SWfhvrwbaUJcNF0eF9dWDfUTKgRoqBwBp8b8XUsujZNGfJBHWXQw8n6lHE/broPhWivBXvxZrVXn8oEpzKDM3+gXglpg3RDhts/QYFRzQncLKmLXPGmEcKXwaKnP0A/0Q1H84SvrF7RdQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="13" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-3" y="-15"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="13" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAAA0AAAAJCAYAAADpeqZqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABTSURBVChTY8AD/qPReAFI0f80YwiNhrGC/zNDUTSAADobA8AUoEsia0KRgwkgYxDAxWb4/65DCYxhzsPhJxhG+AOXYixiGAKEMBjglAACLOIMDAApuFd2TwxjmAAAAABJRU5ErkJggg==">
+        <vector name="origin" x="6" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-4" y="-16"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="3">
+      <canvas name="shoes" width="24" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACRSURBVDhPrY+LDYAwCES7giu4grO4grO4gku6QpVTCOL1Y+JLLuFzFJp+IhP9Rl6mx6PdS7pMJ3GB0DWbt9mMNbP3Ka2Zy7CvI4bJhYr57ljwfq0ZsYG4skDQnnnZAiRyiV5915SYvxgG+mPMIJCiNFWFq2PuwVw4EH6fQPpNssTHDHvDCbBGSS2aXm9g+kBKBxJ4lErZU1LvAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-2" y="-12"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="walk2">
+    <imgdir name="0">
+      <uol name="shoes" value="../../walk1/0/shoes"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="shoes" value="../../walk1/1/shoes"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="shoes" value="../../walk1/2/shoes"/>
+    </imgdir>
+    <imgdir name="3">
+      <uol name="shoes" value="../../walk1/3/shoes"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stand1">
+    <imgdir name="0">
+      <canvas name="shoes" width="20" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABZSURBVChTY8AD/mPBIIBNHIQJgv8zQxn+v+tQAtNpxiga8cnhBDBF6BgEsImDMArAKwkF6GqQ1SGzIc4nwguE1IHZYEmYAmQMUwAFxKiDGEhljFWQTMzwHwAjaYyWkF+ogwAAAABJRU5ErkJggg==">
+        <vector name="origin" x="10" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-3" y="-18"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="20" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABXSURBVChTY8AD/uPAIIBLHC/4PzOU4f+7DiUwnWaMohGfHE4AU4SOQQCbOAijALySUICuBl0dnA92PhFeIKQOzAZLwhQgY5gCKCBGHcRAKmOsgmRihv8AI2mMlqYqsd8AAAAASUVORK5CYII=">
+        <vector name="origin" x="10" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-2" y="-17"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="20" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABbSURBVChTY8AD/uPAIIBLHC/4PzOU4f+7DiUwnWaMohGfHE4AU4SOQQCbOAijALySUICuBl0dnA92PhFeIKQOzIZLomOYAigAq8OmFiQHUQI1kMoYqyCZmOE/ANXKjEHJ463DAAAAAElFTkSuQmCC">
+        <vector name="origin" x="10" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-18"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stand2">
+    <imgdir name="0">
+      <uol name="shoes" value="../../stand1/0/shoes"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="shoes" value="../../stand1/1/shoes"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="shoes" value="../../stand1/2/shoes"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="alert">
+    <imgdir name="0">
+      <canvas name="shoes" width="24" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAICAYAAADjoT9jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABnSURBVDhPjZDRCcAgDEQzS1foLK7QWbpCl+wKEVKES7zqPTjE5N2HGsF/wlC9CX/vw59mfp3LYvI2bmKINQzFCRSRzWuPOd9ThW+ps9Qj3TjTEjMEYLpvuuHjRQnC9jV0uArC9hDzDofsjj/SALO5AAAAAElFTkSuQmCC">
+        <vector name="origin" x="12" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="1" y="-15"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="24" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAICAYAAADjoT9jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABySURBVDhPlZDRDYAgDERZgRVcwVlcwVlcwSVdoaY0kiscVF7yEuldP2oaIEQG66kh8lyb3EeSczd1ZlHHSrfylVoZrpOze1dw2IUB4W45T8/EU3Vu8ZRfu+7/oZpZZUjZZfuaWcU+VkRY3kqHMxGWg0lengKQkiPZkKEAAAAASUVORK5CYII=">
+        <vector name="origin" x="12" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="1" y="-16"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="24" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAICAYAAADjoT9jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABmSURBVDhPY8AD/mPB2ACx6lDA/5mhDP/fdSiB6TRjvBpR1BFQCwcwRegYFyCoFq8kAYCuF0M/2IswTESQIAMUfVj0gmmU8EPGMAV4AIrBWPRCLCARIwNs8ugYqyA+jAywySNhhv8Ais+PcexbjtYAAAAASUVORK5CYII=">
+        <vector name="origin" x="12" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="1" y="-17"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingO1">
+    <imgdir name="0">
+      <canvas name="shoes" width="28" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAAKCAYAAACngj4SAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB8SURBVDhPvZGBDYAgDASZxRWcxRWcxRVc0hVqqDwp+CVAopdcoMhTIuEjJI2/IPuqDYebzoTk3GhD9xxsnL1lzmtV1lh7obeMo3GUOg8Lmh8nqM+DilzHojpvEKnrFsgzn18IYzOIDQk7b8GexEoXPXtgOStd9OyB5ZIh3OrnfXJUO4vFAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-11"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="16" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABYSURBVChTYyAS/EfCRAFkDf9nhjL8TzMmzgCwoncdSuiaiNIMA2DNIBoJ4wIocsRqAgEMdWBnY3E6NoCpGaYJHYPkIErgAEMzCCALEotRADYF+DASYGAAAOLIWesDERoeAAAAAElFTkSuQmCC">
+        <vector name="origin" x="14" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-11" y="-16"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="37" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAICAYAAAB+rDbrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABwSURBVDhPY8AB/iNhWgCSzf7/rkPp/8xQhv9pxjRxHLrZRAGwJhCNBVMCwGaAPEyKg2AKkTG1AUl2gH0Aw+QELxEAnx3I9oDZYAUwRegYpohCgNcOEAapQcIYAoQwOQCbOfgwVkF8mByAzRwcmIEBAJo1lzZ2X1JqAAAAAElFTkSuQmCC">
+        <vector name="origin" x="14" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-6" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingO2">
+    <imgdir name="0">
+      <canvas name="shoes" width="23" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABcAAAAICAYAAAASqmTuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABnSURBVChTlY/RDYAwCESZxRWcxRWcxRVcsivQ0IgBelJ8yfso3DWBEhhoQXuxBLdr4/sgPvfPYiUzocFoZLV/icE0bEA9dTDO0xN/num60rNd92FUQwlTX2aP7lExgjIqHGYiQI6oA59Cha5+dSmFAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-17"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="28" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAAJCAYAAAAhFky8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB/SURBVDhPY6AR+A+liQYgDeiYWPA/zZh0ff/fdSj9nxmKopkQAKsjUQ8cwDSgY0IA7FAQDeHiB8gGE60JC8BlDjIb4jJYMJIbLECAYg7IDLT4BJuHYgk6hikiAmA1BySOhrEK4sO4AFyNoKAgsnpkDAbYJPBhXACbWhiGAgYGABBwjgyAc+HCAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="2" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="29" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAICAYAAAAFiPQnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABvSURBVDhPY8AB/uPA5ACS9P1/16H0f2Yow/80YwgGiUGkiAJg9aTqgylGx8QAFAeD+FCMAZAlcSoiARA0B+wyGEZzITkAn0/BNFgSOe6QMUwRCQCneSA5KEbhEIvxAWzq0TFWQUIYH8CmHgkzMAAAyp6JiGVgA7wAAAAASUVORK5CYII=">
+        <vector name="origin" x="14" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-2" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingO3">
+    <imgdir name="0">
+      <canvas name="shoes" width="27" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAJCAYAAADDylfFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB4SURBVDhPY8AB/kMxzQDMgv8zQxn+pxmTbSHRev6/61CCWwoWIQ0gO5KgGQQV4AHgEAHRUIwXICskqBgLQNaH1xxw8IEwWnzBFGPVhANgMwcO4BLoGCSHhIkBYLPQzQOJQzEKBx8mBmDTh4yxCsIwqQCbGVDM8B8AzeJ0rlvsw3AAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-3" y="-12"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="19" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAAJCAYAAADQHRcxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABsSURBVChTYyAD/EfCRAFcGv6nGRNnENwAJA3Imv7PDMUQgwFsYgQ1EJKDA2IU/3/XoYRNDYoYWBEIY3EZjA+XRws3ZDbEazBFMAwSR8fIapAshWEwQBfEhkEAmzgMwwE2SWQMA9jkQBgKGBgA6RF1Nj8oz6QAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-9" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="28" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAAKCAYAAACngj4SAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB9SURBVDhPvZGBDYAgDASZxRWcxRWcxRVc0hVqqLyp8CXYRC+5QCttiaSPkLL+gqyzDnw9NFIk+0IHun1wMHrLu16jZ4xcg94yr8YIdY+mT/djgLofVOTYJtV5g0wd90A98/qFMA+DOFCw+x7sSaw06TkCq7PSpOcIrK6Y0gmfF3xzwC9klQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="14" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-8" y="-11"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingOF">
+    <imgdir name="0">
+      <canvas name="shoes" width="29" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAICAYAAAAFiPQnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABxSURBVDhPY8AC/kMxXQDYsncdSv9nhlJsMUw/MsYL/qcZQzCIDcWkALCjYY5HMgcrQLYEr0IiADazQBgOwAIw1xHrQhwAWT1e88AckARMEoahcqQAmB6s5iGbCVeIA5MCsOnHhrEKImNyATazgJjhPwCmB32liBHKQQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="3" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="25" height="15" basedata="iVBORw0KGgoAAAANSUhEUgAAABkAAAAPCAYAAAARZmTlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACWSURBVDhPvZKBDYAwCAQ7iys4iys4iyu4pCvUQNrmQWypVi/5xMJTkDQMIII+Ix7bFPelv1HPdMW7zu2aYiY5p9O5qj8n0eSZDGuyT58ZDKII/LZAfxFtgDaRzowwGKph+Vm0BdyESCp5sOpYzSb6dxuIWkNm8Mm7F/VKzCXhefM3iHsokNGJN02qiCZJw/mlCfFBgxBOKV2lsPE971cAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-2" y="-15"/>
+        </imgdir>
+        <string name="z" value="backShoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="8" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAAAgAAAASCAYAAABmQp92AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABkSURBVChTpY+BCYAwDAQziys4iys4iyu4ZFeIfDDw6QcVPAil+YN+rcHvswVhjsChSF2IKfi5fZDGsbQCXyQEvq+6ZFjgCeJdKgiKAOaFCCAXGbbC3KUQPf4J+M2TAF4FQILZBWstXV8nN8SxAAAAAElFTkSuQmCC">
+        <vector name="origin" x="14" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-18" y="-8"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="3">
+      <canvas name="shoes" width="37" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAJCAYAAAC18OVOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB/SURBVDhPxZGBCYAwDAQ7iys4iys4iyu4pCtE8zSQyqeipHhwIEnNl7T8hNzs8urwBzB3ncP5NFOObZJ9CX/KoJdBc63oHUGU47+BP9A0BoBNme45m2ys1NbaefMMkGF5mmVqr9remBzKhuZpvQp84ckM2FwvYI3IDNhc86KUE0zwjh2nKlN/AAAAAElFTkSuQmCC">
+        <vector name="origin" x="14" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="2" y="-8"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingT1">
+    <imgdir name="0">
+      <canvas name="shoes" width="22" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABYAAAAICAYAAAD9aA/QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABiSURBVChTlY/RCcBACEOdpSt0lq7QWbpCl+wK9ggI0dOrffAQNPlQCjQxo5Nx6H2IPteGee5lsZNxWCga+bqDVigQO1MPL/19a1D10MXSDiyFWGbVc6WOTHY30yW7IssPRV9gi4DEwEYSVgAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-18"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="28" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAAJCAYAAAAhFky8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACCSURBVDhPtZGLDYAgDERZgRVcwVlcwVlcwSVdodpKSbmUn4kvuSBwdxIIP0FpHIYDqFFoX+dzdB0LnVsR7iG+yUxGA6geclAe32kbW+yFcF4DOzRnv9+T6TV+vZaHooc74D2lr/gJSk0DuD28DnIXW6qRPTFG67cSvI2WanheVSKEGxeFjwuSfK54AAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="1" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="37" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAICAYAAAB+rDbrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVDhPY8AB/iNhWgCSzAYrfteh9H9mKMP/NGO4ZqINIAKgm00UAGsC0VgwJQBsBsjDpDgIphAZUxuQZAfYBzBMTvASAfDZgWwPmA1WAFOEjmGKKAR47QBhkBokjCFACJMDsJmDD2MVxIfJAdjMwYEZGACZbpg11x1/TQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingT2">
+    <imgdir name="0">
+      <canvas name="shoes" width="28" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAANCAYAAAC6hw6qAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABxSURBVDhPY8AC/mPBNAf/33Uo/Z8ZyvA/zZg+liL7DhlTFdDUcHQADkJ6BSPYEphFyBgkB1FCFsCpHyaBC5MC4PrwORquiEiMD4BDChY1ID5EmDiAbAkyJgTI0UMRGFQJkOoWIxuMC1MVYLMACTP8BwAAh4hFZtmxVwAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="4" y="-10"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="29" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAKCAYAAABIQFUsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVDhPY8AD/kMxuYBo/TCF/9OMIRjKJxWQrP//uw6l/zNDybIQrIcc/TDFRGvAAojWj2wZMiYHEGUGOEhgwQLCaHGCVzMaQDELixlgczAswmEhWDEBQKxZGAK4MDEAmz50DAbYJJAxKQCbfmQMB3glqQ8YGACbBZBwNHRA0QAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="37" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAICAYAAAB+rDbrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVDhPY8AB/iNhWgCSzAYrfteh9H9mKMP/NGO4ZqINIAKgm00UAGsC0VgwJQBsBsjDpDgIphAZUxuQZAfYBzBMTvASAfDZgWwPmA1WAFOEjmGKKAR47QBhkBokjCFACJMDsJmDD2MVxIfJAdjMwYEZGACZbpg11x1/TQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingT3">
+    <imgdir name="0">
+      <canvas name="shoes" width="29" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAICAYAAAAFiPQnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB4SURBVDhPY8AB/mPBpID/acak6/v/rkPp/8xQkjWD1ZKhDwxgGtAxMQDsYBAN4eIHyIYTrQkHwGUWMhviOliQkhs8UIBiFsgcJLMQZiJbhI7hiogDKI5GMwMZYxXEh/EBuDpBQUFkPcgYDLBJ4MP4ADb1MAwFDAwAcTiLDz/8FWEAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="2" y="-15"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="24" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAICAYAAADjoT9jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABuSURBVDhPY8AC/qNhYgDRav+/61D6PzOUNMNB6tOMCeuBKSCoEAmA1YIcBWXjBTBFyBgG0PnoAFkPVnVgV8CCB+RdJC/j1QgEGHpBYhApCEAxlFTDQXoJ6Efh4MK4ADa16BirIAwTAtj0IGGG/wCGhnzZxejOTQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-7" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="37" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAICAYAAAB+rDbrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVDhPY8AB/iNhWgCSzAYrfteh9H9mKMP/NGO4ZqINIAKgm00UAGsC0VgwJQBsBsjDpDgIppBoDWQAdDvw2gP2AQyTE7xEAHx2INsDZoMVwBShY5giCgFeO0AYpAYJYwgQwuQAbObgw1gF8WFyADZzcGAGBgDPDpc2iIA6WQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingTF">
+    <imgdir name="0">
+      <canvas name="shoes" width="10" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMCAYAAABbayygAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABfSURBVChTdZBRDYAwDAWnBQtowcK0YAGTszDWpq/pG49LLh30PgZNMEMJlu64DxlTBPuZ54SC0MBM9qhKqMA0MB0KnouflwktEJaPMZ36Yg/oV9EiBPUqTo3+/CCiNl+tf11wnhlsRwAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-9" y="-14"/>
+        </imgdir>
+        <string name="z" value="backShoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="20" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACJSURBVDhPrZCBDYAwCAQ7iys4iys4iyu4pCugTwoBQorRfkLE53sWWxD15xTRdSwAToEKhM6N+1/geJj2dR5QeuuNlOYUgH+IlYsbah65LMsGQBY4gGoOvSknNiO0+5mymXuXwJsbQuLruV5OcSiViWfYptpIzHRoxBC7TbFRKfvRWJ+UgZ5qdANmEom7JT6QTAAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-3" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="25" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABkAAAALCAYAAACK9ybzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVDhPY0AD/6GYZuB/mjGKJVS37P/MUKyWkGMRXj3ohpJjCbpDUQBMAlkBMpsYAA4NEA3hYoL/7zqU0IMMrwYsAK8+uAVYLCEFYHMoHMAlKPEFshlYzELhIGNSADb9yBgMcEoQCbDpR8ZwgFWQcsDAAAA/iHQEx3zxTwAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-5" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="3">
+      <canvas name="shoes" width="37" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAICAYAAAB+rDbrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVDhPY8AB/iNhWgCSzAYrfteh9H9mKMP/NGO4ZqINIAKgm00UAGsC0VgwJQBsBsjDpDgIphAZUxuQZAfYBzBMTvASAfDZgWwPmA1WAFOEjmGKKAR47QBhkBokjCFACJMDsJmDD2MVxIfJAdjMwYEZGACZbpg11x1/TQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="1" y="-12"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingP1">
+    <imgdir name="0">
+      <canvas name="shoes" width="22" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABYAAAAICAYAAAD9aA/QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABjSURBVChTY8AB/mPB2ACx6uDg/8xQhv/vOpTAdJoxTk3EqEEBMEXoGB0QkgcDohShAXQ9GPrAXiLVW0CASx9YL1gQJoGMkRQhY2SATx+KJmIwMsAmD8NYBZExPoBNPRAz/AcA1jGBw5S62TwAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="1" y="-17"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="28" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAAJCAYAAAAhFky8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB/SURBVDhPY6AR+A+liQYgDeiYWPA/zZh0ff/fdSj9nxmKopkQAKsjUQ8cwDSgY0IA7FAQDeHiB8gGE60JC8BlDjIb4jJYMJIbLECAYg7IDLT4BJuHYgk6hikiAmA1BySOhrEK4sO4AFyNoKAgsnpkDAbYJPBhXACbWhiGAgYGABBwjgyAc+HCAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="1" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="37" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAICAYAAAB+rDbrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVDhPY8AB/iNhWgCSzAYrfteh9H9mKMP/NGO4ZqINIAKgm00QgBWCNMHYaJgSADYD5GGSHYSGqQ1IsgPsAxgmNXiJBPjsQLYHzAYrgClCxzBFFAK8doAwSA0SxhAghMkB2MzBh7EK4sPkAGzm4MAMDAAEPJk0BRXvlgAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingP2">
+    <imgdir name="0">
+      <canvas name="shoes" width="25" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAABkAAAAKCAYAAABBq/VWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACCSURBVDhPtZCBDYUgDEQ7iyv8WVzBWVzhL+kK1Z7UnFikMfqSS+FylIJ00FI/wZrr9NsrnBzpvP5H0WUeUG1f1AP57GDcuBveQM4HK/smHmAxkee0zhiHhyn8i+zJ9OxaEXc5rE+Nn1yQGPBiRGqBxvWQ5pNAbboyROdYrxA1NhEiKxvYiUShFh7HAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-15"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="28" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAAJCAYAAAAhFky8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB/SURBVDhPY6AR+A+liQYgDeiYWPA/zZh0ff/fdSj9nxmKopkQAKsjUQ8cwDSgY0IA7FAQDeHiB8gGE60JC8BlDjIb4jJYMJIbLECAYg7IDLT4BJuHYgk6hikiAmA1BySOhrEK4sO4AFyNoKAgsnpkDAbYJPBhXACbWhiGAgYGABBwjgyAc+HCAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="1" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="37" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAICAYAAAB+rDbrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVDhPY8AB/iNhWgCSzAYrfteh9H9mKMP/NGO4ZqINIAKgm00UAGsC0VgwJQBsBsjDpDgIphAZUxuQZAfYBzBMTvASAfDZgWwPmA1WAFOEjmGKKAR47QBhkBokjCFACJMDsJmDD2MVxIfJAdjMwYEZGACZbpg11x1/TQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="swingPF">
+    <imgdir name="0">
+      <canvas name="shoes" width="39" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAACcAAAAKCAYAAAA3kUfdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACASURBVDhPYxhE4D8UDziAOQTZMdjEBgT8TzOGYBAbIgQGRDmQKEUUgv8zQzHswGsvWOJdhxJYI5LPsCqmEIDtAdEQLkZootiJLIiMaQVQ7MEXIGBJLAroAVDsRXccigQyhimgMcDlMLDd6AKEMLUBNjtgGKsgPkxtgM0OIGb4DwCjXZErtpO7kgAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="1" y="-10"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="36" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAACQAAAAJCAYAAABaMo5wAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACESURBVDhPxZGLDYAgDESZxRWcxRWcxRVc0hWqrZT0FwJJjS+54J3QM1J+AOrKoLeZY2jTJDzTzg1zGcK+Kp8FnJuabXE5XMdCh/BZKBPqwPW1jbBPhupFIraDFN0IfTn/oc6VWT+DnNfta6GV2CSVgevErEqZEWUQzWWFodQXRD2PSrkB/UGMdDEhYiIAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-10"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="20" height="21" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACISURBVDhPzZOBCYAwDAQ7iys4iys4iyu4pCtEPjbyBkVpUvDgSSnt0aa0OKTWNNKEEMk8HlVnAsi2DLJOF1lIbJtZEBKCLkKrnGZUgD7Sw8SE9jD/FZqsQfi4jkWWN/gAt3yRnWuyWqQi9BzjGhCT1jBhoVWfJnQzrp7exywh6PcZMKaEcLJSdkzUkF8lXWaHAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="3">
+      <canvas name="shoes" width="19" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAAICAYAAAAbQcSUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABsSURBVChThY6BDYAwCASZxRWcxRWcxRVc0hWwoOCXfuoln5aDpsgP+p6B1RGEOScf7Ot3bzHQIcw5eh2Lnht96N7Op8w7ukFikK5XPrQ4vs1kIwMdm/VeyhoY6oLzpTeIWQzmI1TWIKzfInID25+COiQq27QAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabO1">
+    <imgdir name="0">
+      <canvas name="shoes" width="34" height="7" basedata="iVBORw0KGgoAAAANSUhEUgAAACIAAAAHCAYAAABtJp9HAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABnSURBVDhPY8AB/iNhagJkcwmaDVf4rkOJKA1Egv8zQyFmgug0Y9yOgUkgK0DWABMjFyCbg4xRANilWFyLVTGFAGeowAXRMUgOooRqAKtdIHGwJAFMLYDNbGSMVRAZUwtgMxuKGf4DAKr0cPZVOq3AAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="9" y="-15"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="34" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAACIAAAAJCAYAAABXLP43AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB/SURBVDhPxY+BDcAgCASdpSt0lq7QWbpCl3QFG1AMEhQlJr3kohX6YhiQyvoLcDl6n3W/k5qPXwbpvZpBpn6aQOYO4ZebzQuk+Bw4COzzkQ42UPPK5JNQlrQBB5BDkFBneujmQ42Zi4MGrgfrcaR62NODliNFtAK5Ay2XLITwAV61j6TUytRQAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-11"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabO2">
+    <imgdir name="0">
+      <canvas name="shoes" width="27" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAJCAYAAADDylfFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB4SURBVDhPtY+BCYAwDAQziys4iys4iyu4pCvEJhh5y1MTwYOnpfH/oxCU6Dd0X0SPbfJznUuFuGDa98nUKC1aDWdgBs3xQWxkijcbXmfcR6APv7/vXoJF9vshm4NGPHKI1/20pFqUzegfmN5gnl4OG4SyMC+qIXICeBqYJJwfUc4AAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="2" y="-16"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="36" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACQAAAAICAYAAACRbl3VAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABsSURBVDhPYxhA8B+K8QKYImRMC/A/zRiCQWyIEG7w/12H0v+ZocRrIAGAzYOZD+WDAIYdMElcmJoAm/kwDAZgF8MwmstpBTDsRI4NsABMkJS4pQDgtRPGIISpCbCZD8NYBbFhagJs5gMxw38ASZN7yUGLgroAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabOF">
+    <imgdir name="0">
+      <canvas name="shoes" width="18" height="7" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAAHCAYAAAAF1R1/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABgSURBVChTdY+BCQAxCAOdpSv8LL9CZ/kVfsmu4KPFJ8T0IBSToNQIJzHKb56/t/m8tmLe9s8pa90yWgDksXhLvNjXM1JQVGSGXVyUBn6LrtRbqCXZweEkROUhabIQkZt9YihpIEfqmTIAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-11"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="37" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAMCAYAAADlPXT9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACVSURBVDhPzZKBDYAgDASdxRWcxRWcxRVc0hVqvmmbBgigQOSSj60U+k26/AjJdypgSgV8XKS68CV0bJGRKmN0n2tV4Qfo2vOmNPECfDExUSv8XmJgy7kxCiDEbgLWAFOKf1djzi1Bc5UeCmHeE+utsf3MSPFxT8IVifr4g5RGwGuTM+XxRcXiBmyXEYumYEpTQAwt9AB/84L1ShhocwAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="9" y="-12"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="37" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAICAYAAAB+rDbrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABvSURBVDhPY8AB/kMxrQBJ5oMVv+tQ+j8zlGYOA5udZkyiw5AcRJJGAgBsFsjDpDgIppBoDWQCou0B+wCGyQleIgEuO2D2wNlgBTBF6BimiAoApx0gDJJHwhgChDC5AJtZuDBWQXyYXIDNLCyYgQEAVWuLIKz/wMMAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="1" y="-12"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabT1">
+    <imgdir name="0">
+      <canvas name="shoes" width="27" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAICAYAAAAIloRgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABwSURBVDhPlZCBCYBACEWdpRWapRWapRVa8lYw1DxEvuU9eHDoV+SogIFdlmd4XBvfB/G5m1KzVolmFmcUD2a/mAfK+7Ukhn7DBa0depVf5l8hdWu3aO2YTQ9EpZ9ElPNhhxIXdUSgHBIWox3QXJL4AbDjkTwen1eSAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="5" y="-16"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="31" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAKCAYAAABMtYURAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVDhPY6AD+A+lBwSALEfGdAX/Z4Yy/E8zJs5yZFcSpQEP+P+uQ4loi0EArAHNtRQ5AA1jBeiKYJhSgM0zKACsAIZhCkkJLhwAbh4uMzEk0TFIDUQpSQCnuSA5KEbhEIuJAdj0oWOsgoQwMQCbPiTMwAAAszWSwzC7ItkAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-4" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="41" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACkAAAAICAYAAABkkNZlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVDhPYxhE4D8SJgiQFSNjWgGw+TNDGf6nGUMwVIwg+P+uQwmuEcSHCNMEwO0CsaEYJ0BWhAvTCmCzC4bhAOwbGKZTCCIDrPYjuwEsiCyBjGGKaAjg9mNzA0gerIhETG2AzQ50jFUQH6Y2wGYHEmb4DwCF85KQbACjfgAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="2" y="-11"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabT2">
+    <imgdir name="0">
+      <canvas name="shoes" width="23" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAABcAAAAKCAYAAABfYsXlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVDhPpZDtDYAwCESZxRWcxRWcxRVcsitgQEmgPZTGl9yf9h39IAC7zPDpczsW3tfpA0oun1t5qHnacRdKyYSs1L80xYQsiJKnN5DYE7t/R6XQyb4mbIKhQX4YOj6yf2txCAoCeShwUfIG8lGUYeE/RBd/hohFD/mHmAAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="30" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAJCAYAAAAl45yBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABzSURBVDhPY6Ax+I+GCQKiFeIB/2eGMvxPMybOLLAiUjTgAGC97zqUcJmBIQZWjGQpLo3EAlxmoPCRFaErJBegm4mMwQDsUxCmQjDDAIqZaOaCzUaRQMYwBWQAQmZCLCYBEwuw6UXHWAVxYWIBNr1ImIEBABl1iEWpoBIVAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-12"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="44" height="8" basedata="iVBORw0KGgoAAAANSUhEUgAAACwAAAAICAYAAACCuR0hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB5SURBVDhPYyAS/IfStAQgO2CYZICs+X+aMfkGEQn+v+tQ+j8zlHy7wJopNYQEALYHRCNhggBdAzqmNSDJTnBowjCdQhUZoNiNZj/MDShugStCxyA5iBI4QOdTCuCOJOAGuFvQBYjB1ATYzMeHsQriw9QG2OzAgRkYAA1pmd5rz/AzAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="5" y="-11"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="stabTF">
+    <imgdir name="0">
+      <uol name="shoes" value="../../swingPF/0/shoes"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="shoes" value="../../swingPF/1/shoes"/>
+    </imgdir>
+    <imgdir name="2">
+      <canvas name="shoes" width="20" height="21" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACISURBVDhPzZOBCYAwDAQ7iys4iys4iyu4pCtEPjbyBkVpUvDgSSnt0aa0OKTWNNKEEMk8HlVnAsi2DLJOF1lIbJtZEBKCLkKrnGZUgD7Sw8SE9jD/FZqsQfi4jkWWN/gAt3yRnWuyWqQi9BzjGhCT1jBhoVWfJnQzrp7exywh6PcZMKaEcLJSdkzUkF8lXWaHAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="3">
+      <uol name="shoes" value="../../stabT1/2/shoes"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="shoot1">
+    <imgdir name="0">
+      <canvas name="shoes" width="23" height="7" basedata="iVBORw0KGgoAAAANSUhEUgAAABcAAAAHCAYAAADj/NY7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABTSURBVChTY8AB/mPB+ABJ6v+/61D6PzOU4X+aMWHFQEBQPUwQF8YH8KoH20yia5EBTv1gAZggMoYpIADw6oUxCGFcAJtaGMYqiA3jAtjUAjHDfwA3AXThqiz1nQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="13" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-17"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="shoes" value="../0/shoes"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="shoes" value="../0/shoes"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="shoot2">
+    <imgdir name="0">
+      <canvas name="shoes" width="24" height="7" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAHCAYAAAAS9422AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVChTY8AB/qNhfABdLSH1YPD/XYfS/5mhDP/TjAlqIlotTBIXxgWwqQVhFAB2BQmuRgYwdTj1gwVhEsgYJAdRgheA1eHTD2MQwrgANrXIGKsgNowLYFMLxQz/AYModkZV972jAAAAAElFTkSuQmCC">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-16"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="shoes" value="../0/shoes"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="shoes" value="../0/shoes"/>
+    </imgdir>
+    <imgdir name="3">
+      <uol name="shoes" value="../0/shoes"/>
+    </imgdir>
+    <imgdir name="4">
+      <uol name="shoes" value="../0/shoes"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="shootF">
+    <imgdir name="0">
+      <canvas name="shoes" width="24" height="7" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAHCAYAAAAS9422AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABdSURBVChTY0AD/7FgQoBoPf9nhjL8f9ehBKbTjPErRgJE64FJomNCAJseEMYAYJeQ4QMQwKsXzAFJwCSRMVQeF4DrRdeHrBfGwIdxAWxq0TFWQXSMC2BTi4QZ/gMAIk97YzmfnpYAAAAASUVORK5CYII=">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="4" y="-17"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="28" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAAJCAYAAAAhFky8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB6SURBVDhPvZDBDYAwDAM7CyswCyswCyuwJCsEtaqjEEwaeGDpHq0dN2ohks4vkmOb8ODbRz8vKvtSZJ21IFPScm7ZcM6bqSEiv+yjYCJoicR8Pw9Uelm/BCQ3Zf6tw/e0QzVtwNIzTPCUTM9lIICJ5UbQS8ZIbMZR5ARqjJcUOykpWwAAAABJRU5ErkJggg==">
+        <vector name="origin" x="11" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="5" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="shoes" value="../1/shoes"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="proneStab">
+    <imgdir name="0">
+      <canvas name="shoes" width="12" height="6" basedata="iVBORw0KGgoAAAANSUhEUgAAAAwAAAAGCAYAAAD37n+BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA/SURBVChTYwCC/yRgOMAQAIL/M0MhGMRGwnCALABW+K5DCYxB7DRjIjTAMEgxQQ0wRcgYJA6RhgAUDdgxAwMAuXJERcEM6iAAAAAASUVORK5CYII=">
+        <vector name="origin" x="5" y="3"/>
+        <imgdir name="map">
+          <vector name="navel" x="-15" y="0"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="shoes" value="../0/shoes"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="prone">
+    <imgdir name="0">
+      <uol name="shoes" value="../../proneStab/0/shoes"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="heal">
+    <imgdir name="0">
+      <uol name="shoes" value="../../alert/1/shoes"/>
+    </imgdir>
+    <imgdir name="1">
+      <uol name="shoes" value="../../swingO2/1/shoes"/>
+    </imgdir>
+    <imgdir name="2">
+      <uol name="shoes" value="../../swingO2/0/shoes"/>
+    </imgdir>
+  </imgdir>
+  <imgdir name="fly">
+    <imgdir name="0">
+      <canvas name="shoes" width="14" height="19" basedata="iVBORw0KGgoAAAANSUhEUgAAAA4AAAATCAYAAACgADyUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB5SURBVDhPnZHRDYAwCEQ7iys4iys4iyu4pCtgzpSGItSzL7mkUB4fbflATGis8Ev2w7SciUNZzq0bkn0lRRssgcjKyiOqjLqmkW2S61hS0TYjmoxzTdhsl4ZX30qKr0OiIUoEOuhDMXzyEfMiXnda9H/FMi0CQizlBjBEghgn9qRsAAAAAElFTkSuQmCC">
+        <vector name="origin" x="13" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-15" y="-10"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="8" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQCAYAAAArij59AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABbSURBVChTY0AC/6E0TgBSgFcRTAFRinAC8hTABP+nGaMogCv8PzOU4f+7DiUwDeJDhFHYcA5cAAgwFMAATAJDARiD3IHkFrgCEIC7g3wFWCRRFIAAuiQhBQwMAFUHUcBtuFUyAAAAAElFTkSuQmCC">
+        <vector name="origin" x="13" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-18" y="-14"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="jump">
+    <imgdir name="0">
+      <canvas name="shoes" width="35" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAMCAYAAADoIwS6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVDhPzZOLDYAgDESZxRWcxRWcxRVc0hUwJRyeUA0/Py9pQj+eFyvGYyk+JRjZlkEzFeetaO8IcNOuk7HzeORiUGo+b4E1cE40ueGCzSCnWi2xBs6JJjc4QBczyhe+1ESDg9Fqubhn6Z8UcOZaIG4ienHSjVYvocIDt4OVuHXhovzCEG5pjhmQPViIMyKGSsw8Sfaa3oKMGLMDzhiZVnn/iMsAAAAASUVORK5CYII=">
+        <vector name="origin" x="17" y="6"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-12"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="sit">
+    <imgdir name="0">
+      <canvas name="shoes" width="20" height="7" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABPSURBVChTY8AD/uPAIIBNHITxgv8zQxn+v+tQAtNpxiia8MnBAUyQEgwHYNtgGI+txKiBOB+mAB2D5CHKcKsDyUGUQABMgFoYqyCZmOE/AIKCissQGZvVAAAAAElFTkSuQmCC">
+        <vector name="origin" x="17" y="6"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-13"/>
+        </imgdir>
+        <string name="z" value="shoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="ladder">
+    <imgdir name="0">
+      <canvas name="shoes" width="16" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABlSURBVDhPnYzLDYAwDEMzS1dgFlboLKzAkqxQaCRXjWVQw5N8iD+xBI2UZozPXT8ZBb++aXWLXf96HeXtO7w5C51Q4O8PIe8SnQCHuJUcaRLcgaQJMTJnc9YSaggto8ZdKX6MzW7RCmHSmgTpbAAAAABJRU5ErkJggg==">
+        <vector name="origin" x="8" y="6"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-15"/>
+        </imgdir>
+        <string name="z" value="backShoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="16" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABfSURBVDhPY4CC/2iYJPD/XYfS/5mh5BtCiiacapElkDEygLs0zRhVHpvzYRgGcKkBA2QT0TEMoPNRALIGZIwN4FSDUwIK0OWRMVGAmHDCC4gJJ7wAm0YQJglg0czAAACRgWdEs0vxNgAAAABJRU5ErkJggg==">
+        <vector name="origin" x="8" y="6"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-15"/>
+        </imgdir>
+        <string name="z" value="backShoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+  <imgdir name="rope">
+    <imgdir name="0">
+      <canvas name="shoes" width="13" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAAA0AAAALCAYAAACksgdhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABNSURBVChTfYmBDcAgDMP6E7fshf20a5mKIECpsWS1iq1Tgytpq99zhBG37S2z6emXdPTH4aYz7hFviiySIoukyCIpKNLeoEi7oBB2sx/JRHEYz/EJIQAAAABJRU5ErkJggg==">
+        <vector name="origin" x="7" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="0" y="-18"/>
+        </imgdir>
+        <string name="z" value="backShoes"/>
+      </canvas>
+    </imgdir>
+    <imgdir name="1">
+      <canvas name="shoes" width="17" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAAKCAYAAABSfLWiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABbSURBVChTY0AC/7FgZEBInuH/zFCsinBiJPVg8P9dhxKyAIyND4PA/zRjFD5CggQMAjAaDpBNxovRXYAOUBQTwDgBNsW4ME6ASzEucawAl2Jc4jgBLoU4xBkYAPjtds7mvHa0AAAAAElFTkSuQmCC">
+        <vector name="origin" x="9" y="5"/>
+        <imgdir name="map">
+          <vector name="navel" x="-1" y="-13"/>
+        </imgdir>
+        <string name="z" value="backShoes"/>
+      </canvas>
+    </imgdir>
+  </imgdir>
+</imgdir>
